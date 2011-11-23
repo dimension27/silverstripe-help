@@ -2,6 +2,10 @@
 class SSHelpController extends Controller {
 
 	public function index( SS_HTTPRequest $request ) {
+		if( !Permission::check('ADMIN') ) {
+			return Security::permissionFailure();
+		}
+		
 		$args = $request->getVars();
 		if( !$type = @$args['type'] ) $type = 'subsite';
 		if( !$assetsFolder = @$args['assets-folder'] ) $assetsFolder = 'help';
