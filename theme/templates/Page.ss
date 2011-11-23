@@ -21,7 +21,6 @@
 		<div id="header">
 
 			<h1>
-				<a href="http://www.silverstripe.org" title="Visit SilverStripe.org" class="ssLogo">&nbsp;</a>
 				<a href="$Top.Link" title="$SiteConfig.Title"><span>$SiteConfig.Title</span></a>
 			</h1>
 		
@@ -49,6 +48,10 @@
 		<p>Powered by <a href="http://www.silverstripe.org">SilverStripe</a>. <a href="http://open.silverstripe.org/newticket/?component=Documentation">Raise a bug or enhancement ticket</a> to help improve the documentation.
 		<br />Except where otherwise noted, content on this wiki is licensed under <a class="urlextern" rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC Attribution-Noncommercial-Share Alike 3.0 Unported</a><a href="http://creativecommons.org/licenses/by/3.0/nz/" rel="license"><img class="cc-logo" src="http://i.creativecommons.org/l/by/3.0/nz/80x15.png" style="border-width: 0pt;" alt="Creative Commons License"></a></p>
 	</div>
+
+	<% if PastMember %>
+		$SilverStripeNavigator
+	<% end_if %>
 
 </body>
 </html>

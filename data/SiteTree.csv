@@ -1,5 +1,5 @@
 ID,ClassName,Created,LastEdited,URLSegment,Title,MenuTitle,Content,MetaTitle,MetaDescription,MetaKeywords,ExtraMeta,ShowInMenus,ShowInSearch,HomepageForDomain,ProvideComments,Sort,LegacyURL,HasBrokenFile,HasBrokenLink,Status,ReportClass,CanViewType,CanEditType,ToDo,ParentID,Version,Priority
-"1","Page","2010-05-24 15:37:37","2010-08-10 13:53:57","home","SilverStripe User Help","Home","<h2>Welcome!</h2>\
+"1","HelpPage","2010-05-24 15:37:37","2010-08-10 13:53:57","home","SilverStripe User Help","Home","<h2>Welcome!</h2>\
 <p> </p>\
 <p>If you are creating content or managing a website built with <a href=\"http://silverstripe.org/silverstripe-cms/\">SilverStripe CMS</a>, you have come to right place. SilverStripe CMS User Help is a reference for editors and administrators of SilverStripe websites. We hope you find it useful.</p>\
 <p><strong>Please note that this version of user help applies to SilverStripe CMS 2.4 and higher. If your site is running on an older version of SilverStripe CMS, you may want to refer to the previous version of User Help for SilverStripe CMS 2.3 at <a href=\"http://2.3.userhelp.silverstripe.org\">2.3.userhelp.silverstripe.org</a></strong><strong>. </strong></p>\
@@ -11,7 +11,7 @@ ID,ClassName,Created,LastEdited,URLSegment,Title,MenuTitle,Content,MetaTitle,Met
 <p>Fred Condo, Anita Graham, <a href=\"http://www.greenskate.co.nz\">Nigel Vining</a>, <a href=\"http://svendigital.co.za\">Stephen Metcalfe</a>, <a href=\"http://www.dragnet.se\">Marcus Dalgren</a>, and the users going by the names of <a href=\"http://www.axyrmedia.nl\">Martijn</a>, Mike, Sunnybex, Fil, and Stefdv.</p>","SilverStripe User Help",\N,\N,\N,"0","1",\N,"1","1",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"0","27","1.0"
 "4","ErrorPage","2010-05-24 15:37:37","2010-08-04 13:56:24","page-not-found","Page not found",\N,"<p>Sorry, it seems you were trying to access a page that doesn't exist.</p>\
 <p>Please check the spelling of the URL you were trying to access and try again.</p>",\N,\N,\N,\N,"0","0",\N,"0","7",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"0","3","1.0"
-"5","Page","2010-06-01 13:37:43","2010-08-17 15:31:38","for-website-content-editors","For website content editors",\N,"<p>In this section, you can learn to:</p>\
+"5","HelpPage","2010-06-01 13:37:43","2010-08-17 15:31:38","for-website-content-editors","For website content editors",\N,"<p>In this section, you can learn to:</p>\
 <ul><li><a href=\"[sitetree_link id=18]\" target=\"_blank\">Create and edit content</a></li>\
 <li><a href=\"[sitetree_link id=6]\" target=\"_blank\">Work with images and documents</a></li>\
 <li><a href=\"[sitetree_link id=9]\" target=\"_blank\">Manage your site</a></li>\
@@ -23,7 +23,7 @@ ID,ClassName,Created,LastEdited,URLSegment,Title,MenuTitle,Content,MetaTitle,Met
 <li><a href=\"[sitetree_link id=14]\" target=\"_blank\">Understand workflow</a></li>\
 <li><a href=\"[sitetree_link id=15]\" target=\"_blank\">Learn to work with multiple sites</a></li>\
 </ul>","For website content editors",\N,\N,\N,"1","1",\N,"1","4",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"0","11","0.9"
-"6","Page","2010-06-01 13:55:15","2010-09-17 13:44:59","working-with-images-and-documents","Working with images and documents",\N,"<h3>In this section:</h3>\
+"6","HelpPage","2010-06-01 13:55:15","2010-09-17 13:44:59","working-with-images-and-documents","Working with images and documents",\N,"<h3>In this section:</h3>\
 <ul><li>Learn how to upload one image or multiple images to a site. </li>\
 <li>Learn how to insert images into the content of a webpage.</li>\
 <li>Learn how to upload PDF, .DOC, audio, and video documents and link to them in the content of a webpage.</li>\
@@ -89,7 +89,7 @@ ID,ClassName,Created,LastEdited,URLSegment,Title,MenuTitle,Content,MetaTitle,Met
 <p>If you place an image in a webpage, and later move or rename that image in \"Files &amp; Images,\" SilverStripe CMS will automatically keep track of those changes, so your webpage will remain unchanged - you don't even have to republish the page. [Editor's Note: Isn't that awesome?]</p>\
 <p> </p>\
 </div>","Working with images and documents",\N,\N,\N,"1","1",\N,"1","2",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"5","51","0.9"
-"9","Page","2010-06-01 13:56:35","2010-08-18 08:54:29","managing-your-site","Managing your site",\N,"<h3>In this section:</h3>\
+"9","HelpPage","2010-06-01 13:56:35","2010-08-18 08:54:29","managing-your-site","Managing your site",\N,"<h3>In this section:</h3>\
 <ul><li>Learn the different content types</li>\
 <li>Learn how to move pages within the site</li>\
 <li>Learn how to hide a webpage</li>\
@@ -158,7 +158,7 @@ ID,ClassName,Created,LastEdited,URLSegment,Title,MenuTitle,Content,MetaTitle,Met
 <h3>Setting To-Dos</h3>\
 <p>To set a To-Do note, browse to the page you wish to make a note on in  the Page Tree in the Contents pane on the left-hand side of the screen.  In the Editing pane, click on the \"To-do\" tab. Type in your To-Do note,  then press \"Save\" in the bottom right hand corner of the editing pane to  save the note.</p>\
 <p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600158-Screen shot 2010-06-28 at 4.18.07 PM.png\" width=\"600\" height=\"158\" alt=\"\" title=\"\"/></p>","Managing your site",\N,\N,\N,"1","1",\N,"1","3",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"5","51","0.9"
-"10","Page","2010-06-01 13:56:47","2011-03-30 08:22:53","web-content-best-practices","Web content best practices",\N,"<h3>In this section:</h3>\
+"10","HelpPage","2010-06-01 13:56:47","2011-03-30 08:22:53","web-content-best-practices","Web content best practices",\N,"<h3>In this section:</h3>\
 <ul><li>Learn how to make your site search-engine friendly</li>\
 <li>Learn how to make your content accessible</li>\
 <li>Other web best practices</li>\
@@ -241,7 +241,7 @@ ID,ClassName,Created,LastEdited,URLSegment,Title,MenuTitle,Content,MetaTitle,Met
 <p>It's a good idea to create a custom 404 page for your site. On this page, you can refer your users to key pages on your site, encourage them to use search or a sitemap, and give them information on how to   contact you about problems with the website.</p>\
 <p>To create a custom error page, click <strong>Create</strong> in the Pages section and select <strong>Error Page</strong>. In the <strong>Main</strong> tab, select Error code <strong>404 - not found</strong>, then create your content as for any other page. Note that you can also create custom pages for other errors, but Page not found is by far the most common one that your users will encounter so you can usually safely ignore the other options.</p>\
 <p><img class=\"left\" src=\"assets/screenshots/error.png\" alt=\"Screenshot: Creating an error page\" width=\"213\" height=\"119\" title=\"\"/></p>","Web content best practices",\N,\N,\N,"1","1",\N,"1","4",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"5","52","0.9"
-"11","Page","2010-06-01 13:57:28","2010-10-12 09:45:58","forms","Forms",\N,"<h3>In this section:</h3>\
+"11","HelpPage","2010-06-01 13:57:28","2010-10-12 09:45:58","forms","Forms",\N,"<h3>In this section:</h3>\
 <ul><li>Learn how to create and edit forms</li>\
 <li>Learn how to add fields to a form</li>\
 <li>Learn how to view submissions and reply to them automatically</li>\
@@ -303,7 +303,7 @@ ID,ClassName,Created,LastEdited,URLSegment,Title,MenuTitle,Content,MetaTitle,Met
 <h4>Creating an email recipient</h4>\
 <p>You can have submissions automatically emailed to an email address when someone submits a form, by clicking on the \"Email Recipients\" tab under the Content tab in the editing pane of the form, and clicking on \"Add An Email Recipient.\" You can specify subject, from address, to address, and add text for the body of the form.</p>\
 <p>Using this form, you can set up an automatic reply to any submission you receive, or have the CMS email someone within your organisation to look at.  You can even do both by setting up two separate email recipients.</p>","Forms",\N,\N,\N,"1","1",\N,"1","7",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"5","27","0.9"
-"12","Page","2010-06-01 13:58:10","2010-08-18 08:57:04","blogs","Blogs",\N,"<h3>In this section:</h3>\
+"12","HelpPage","2010-06-01 13:58:10","2010-08-18 08:57:04","blogs","Blogs",\N,"<h3>In this section:</h3>\
 <ul><li>Learn how to create blogs</li>\
 <li>Learn how to post to a blog</li>\
 <li>Learn how to enable or disable comments</li>\
@@ -332,7 +332,7 @@ ID,ClassName,Created,LastEdited,URLSegment,Title,MenuTitle,Content,MetaTitle,Met
 <p>By default, comments on blog posts are enabled.  To disable comments on a single post, choose the blog post you wish to disable comments for in the Contents pane on the left hand side, then choose the \"Behaviour\" tab in the Editing Pane. You can disable comments by un-checking the box next to \"Allow comments on this page?\"<br/><br/>After you have made these changes, hit the \"Save\" button in the bottom right hand of the editing pane.</p>\
 <p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600444-Screen shot 2010-06-28 at 4.20.46 PM.png\" width=\"600\" height=\"444\" alt=\"\" title=\"\"/></p>\
 <p><br/><br/></p>","Blogs",\N,\N,\N,"1","1",\N,"1","5",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"5","17","0.8"
-"13","Page","2010-06-01 13:58:15","2010-08-18 11:56:45","forums","Forums",\N,"<h3>In this section:</h3>\
+"13","HelpPage","2010-06-01 13:58:15","2010-08-18 11:56:45","forums","Forums",\N,"<h3>In this section:</h3>\
 <ul><li>Learn how to manage forums.</li>\
 <li>Register a new username</li>\
 <li>Learn how to create new topics, (a.k.a. threads)</li>\
@@ -412,7 +412,7 @@ ID,ClassName,Created,LastEdited,URLSegment,Title,MenuTitle,Content,MetaTitle,Met
 <p>While this limited information will suffice for forum administration, administrating users across your SilverStripe site is a much broader topic which will be covered in more under \"<a href=\"[sitetree_link id=45]\">Changing and Managing Users</a>\" in the \"<a href=\"[sitetree_link id=16]\">For Website Administrators</a>\" section.</p>\
 <p> </p>\
 </div>","Forums",\N,\N,\N,"1","1",\N,"1","8",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"5","37","0.9"
-"14","Page","2010-06-01 13:58:24","2010-08-18 11:57:43","workflow","Workflow",\N,"<h3>In this section:</h3>\
+"14","HelpPage","2010-06-01 13:58:24","2010-08-18 11:57:43","workflow","Workflow",\N,"<h3>In this section:</h3>\
 <ul><li>Understand workflow</li>\
 <li>Learn how to request publication (as a content author)</li>\
 <li>Learn how to publish content (as a publisher)</li>\
@@ -446,7 +446,7 @@ ID,ClassName,Created,LastEdited,URLSegment,Title,MenuTitle,Content,MetaTitle,Met
 </ul><h3>Embargo &amp; expiry (publishers)</h3>\
 <p>Publishers can choose to Embargo content - that is, wait until a specific date and time to publish a page, or choose to set an Expiry date - that is, wait until a specific date and time to remove a page from publication.</p>\
 <p>To set either the Embargo or Expiry date, go to the Workflow tab of the page in question, and scroll down to \"Embargo Expiry.\"  Set the appropriate date and time, and hit \"Set Embargo Date\" and/or \"Set Expiry Date.\"  To start the countdown clocks, you must Approve or Publish the content by pressing \"Approve\" or \"Publish\" under Actions at the bottom left of the editing pane.</p>","Workflow",\N,\N,\N,"1","1",\N,"1","9",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"5","12","0.9"
-"15","Page","2010-06-01 13:58:24","2010-08-18 12:03:20","working-with-multiple-sites","Working with multiple sites",\N,"<h3>In this section:</h3>\
+"15","HelpPage","2010-06-01 13:58:24","2010-08-18 12:03:20","working-with-multiple-sites","Working with multiple sites",\N,"<h3>In this section:</h3>\
 <ul><li>Understand subsites</li>\
 <li>Learn how to create a subsite</li>\
 <li>Learn how to create and use subsite templates</li>\
@@ -486,13 +486,13 @@ ID,ClassName,Created,LastEdited,URLSegment,Title,MenuTitle,Content,MetaTitle,Met
 <p>If you are using both the Subsites and the CMS Workflow module, you can set up your roles, permissions and access rights for each individual subsite as well as across all sites. Refer to the CMS workflow documentation for more details. When you run workflow reports, by default you see the results for the current subsite. You also have the option to include \"All subsites\".</p>\
 <p> </p>\
 </div>","Working with multiple sites",\N,\N,\N,"1","1",\N,"1","10",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"5","16","0.9"
-"16","Page","2010-06-01 13:58:35","2010-08-18 08:49:09","for-website-administrators","For website administrators",\N,"<p>In this section, you can learn to:</p>\
+"16","HelpPage","2010-06-01 13:58:35","2010-08-18 08:49:09","for-website-administrators","For website administrators",\N,"<p>In this section, you can learn to:</p>\
 <ul><li><a href=\"[sitetree_link id=45]\" target=\"_blank\">Change and manage user accounts</a></li>\
 <li><a href=\"[sitetree_link id=41]\" target=\"_blank\">Manage roles and permissions</a></li>\
 <li><a href=\"[sitetree_link id=42]\" target=\"_blank\">Use workflow with roles and permissions</a></li>\
 <li><a href=\"[sitetree_link id=43]\" target=\"_blank\">Set up and administer security for multiple subsites</a></li>\
 </ul>","For website administrators",\N,\N,\N,"1","1",\N,"1","5",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"0","7","0.9"
-"18","Page","2010-06-01 14:04:30","2010-08-17 15:32:00","creating-and-editing-content","Creating and editing content",\N,"<h3>In this section</h3>\
+"18","HelpPage","2010-06-01 14:04:30","2010-08-17 15:32:00","creating-and-editing-content","Creating and editing content",\N,"<h3>In this section</h3>\
 <ul><li>Learn how to create a new page.</li>\
 <li>Learn how to write content for that page.</li>\
 <li>Learn how to describe that content for site navigation and search optimization.</li>\
@@ -586,7 +586,7 @@ ID,ClassName,Created,LastEdited,URLSegment,Title,MenuTitle,Content,MetaTitle,Met
 <p>You can view the published site directly by clicking on \"Published Site\" in the View Bar on the bottom left hand corner of the screen. </p>\
 <p><img class=\"leftAlone\" src=\"assets/screenshots/Screen-shot-2010-07-08-at-1.31.32-PM.png\" width=\"249\" height=\"22\" alt=\"\" title=\"\"/></p>\
 <p> </p>","Creating and editing content",\N,\N,\N,"1","1",\N,"1","1",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"5","56","0.8"
-"46","Page","2010-06-01 14:52:47","2010-08-17 15:29:09","introduction-and-logging-in","Introduction and logging in",\N,"<p>Hello, and welcome to the SilverStripe CMS web help. Hopefully, you should be able to find the topic you're looking for in our navigation bar to the left, or, if you prefer, you can use our search function to find what you are looking for. </p>\
+"46","HelpPage","2010-06-01 14:52:47","2010-08-17 15:29:09","introduction-and-logging-in","Introduction and logging in",\N,"<p>Hello, and welcome to the SilverStripe CMS web help. Hopefully, you should be able to find the topic you're looking for in our navigation bar to the left, or, if you prefer, you can use our search function to find what you are looking for. </p>\
 <p>If you have not yet installed SilverStripe, but want to follow along, you can use our interactive demo at <a href=\"http://demo.silverstripe.com/ \">http://demo.silverstripe.com/</a> to give SilverStripe a try. </p>\
 <p>You can access this Help document by clicking on \"Help\" inside your SilverStripe installation at any time. </p>\
 <h3>Logging in</h3>\
@@ -602,7 +602,7 @@ ID,ClassName,Created,LastEdited,URLSegment,Title,MenuTitle,Content,MetaTitle,Met
 <p>If you are managing other CMS users and want to reset a password for somebody else, refer to <a href=\"[sitetree_link id=45]\">Changing and Managing Users</a>.</p>\
 <p> </p>\
 </div>","Introduction and logging in",\N,\N,\N,"1","1",\N,"1","2",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"0","21","0.9"
-"41","Page","2010-06-01 14:44:51","2010-08-18 12:31:31","managing-roles-and-permissions","Managing roles and permissions",\N,"<h3>In this section:</h3>\
+"41","HelpPage","2010-06-01 14:44:51","2010-08-18 12:31:31","managing-roles-and-permissions","Managing roles and permissions",\N,"<h3>In this section:</h3>\
 <ul><li>Understand roles and security groups</li>\
 <li>Learn how to set up a role</li>\
 <li>Learn how to edit a role</li>\
@@ -656,7 +656,7 @@ ID,ClassName,Created,LastEdited,URLSegment,Title,MenuTitle,Content,MetaTitle,Met
 <p>It is suggested that, where possible, permissions are assigned to roles,  and roles are assigned to security group members.  However, it is  possible to assign permissions to security group members, by clicking on  the Permissions tab in the editing pane.  The Permissions tab allows  you to apply additional permissions to a group.</p>\
 <h3>Restricting access by IP address</h3>\
 <p>To restrict access by IP address, click on the IP address tab in the  Editing Pane, and add your IP address ranges to the box.  Only those  users signing in from a computer in a valid IP address range will be  able to access the site.</p>","Managing roles and permissions",\N,\N,\N,"1","1",\N,"1","2",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"16","19","0.8"
-"42","Page","2010-06-01 14:44:51","2010-08-18 14:32:18","workflow-roles-and-permissions","Workflow roles and permissions",\N,"<h3>In this section:</h3>\
+"42","HelpPage","2010-06-01 14:44:51","2010-08-18 14:32:18","workflow-roles-and-permissions","Workflow roles and permissions",\N,"<h3>In this section:</h3>\
 <ul><li>Learn how to set up roles and groups for workflow</li>\
 <li>Set up \"Author,\" \"Publisher,\" and \"Administrator\" roles for workflow</li>\
 <li>Set up access rights for pages using security groups for workflow</li>\
@@ -703,7 +703,7 @@ ID,ClassName,Created,LastEdited,URLSegment,Title,MenuTitle,Content,MetaTitle,Met
 <li>Who can approve requests inside the CMS?</li>\
 <li>Who can publish approved request inside the CMS?</li>\
 </ul><p>By default, all will have \"Inherit from parent page\" selected. You can limit access to specific security groups by choosing the radio  button \"Only these people (choose from list),\" and choosing which  security groups have access from the \"drop-down checklist.\"</p>","Workflow roles and permissions",\N,\N,\N,"1","1",\N,"1","3",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"16","16","0.8"
-"43","Page","2010-06-01 14:44:51","2010-08-18 14:33:13","security-for-multiple-subsites","Security for multiple subsites",\N,"<h3>In this section:</h3>\
+"43","HelpPage","2010-06-01 14:44:51","2010-08-18 14:33:13","security-for-multiple-subsites","Security for multiple subsites",\N,"<h3>In this section:</h3>\
 <ul><li>Learn how to manage security for multiple related subsites </li>\
 </ul><h3>Before we begin:</h3>\
 <ul><li>Make sure you are in  the \"Security\" section on the navigation tabs. </li>\
@@ -729,7 +729,7 @@ ID,ClassName,Created,LastEdited,URLSegment,Title,MenuTitle,Content,MetaTitle,Met
 </ul><p>Once you make a selection from the dropdown, you see the appropriate groups in the Security section. In the Security section, click a group and go to its Subsites tab to assign the subsites to which the group has access. Click Only these subsites to reveal a checklist of all available sites.</p>\
 <p><img class=\"leftAlone\" src=\"assets/screenshots/subsite-6.png\" width=\"354\" height=\"158\" alt=\"\" title=\"\"/></p>\
 <p> </p>","Security for multiple subsites",\N,\N,\N,"1","1",\N,"1","4",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"16","10","0.8"
-"45","Page","2010-06-01 14:44:52","2010-08-18 12:06:56","changing-and-managing-users","Changing and managing users",\N,"<h3>In this section:</h3>\
+"45","HelpPage","2010-06-01 14:44:52","2010-08-18 12:06:56","changing-and-managing-users","Changing and managing users",\N,"<h3>In this section:</h3>\
 <ul><li>Learn how to create users</li>\
 <li>Learn how to delete users</li>\
 <li>Learn how to manage users</li>\
@@ -751,7 +751,7 @@ ID,ClassName,Created,LastEdited,URLSegment,Title,MenuTitle,Content,MetaTitle,Met
 <p>To change a user's password, find a user under the \"Members\" tab in the Editing Pane, and click on the \"Edit\" button. This should produce a pop-up window.  <br/><br/>Underneath the Email field in the User Details, there is a Change Password link. This will open up a password field and a confirm password field.  Change the password and confirm it (both must match) and hit \"Save\" on the bottom of the popup window.</p>\
 <p><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-29%20at%2011.06.55%20AM.png\" width=\"530\" height=\"217\" alt=\"\" title=\"\"/></p>\
 <p> </p>","Changing and managing users",\N,\N,\N,"1","1",\N,"1","1",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"16","21","0.8"
-"47","Page","2010-06-01 15:27:54","2010-08-17 15:30:03","basic-overview","Basic overview",\N,"<p>The SilverStripe CMS is arranged in five sections.  </p>\
+"47","HelpPage","2010-06-01 15:27:54","2010-08-17 15:30:03","basic-overview","Basic overview",\N,"<p>The SilverStripe CMS is arranged in five sections.  </p>\
 <p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600371-Pane-View.png\" width=\"600\" height=\"371\" alt=\"\" title=\"\"/></p>\
 <h4>Navigation tabs</h4>\
 <p><strong>Location: upper bar</strong></p>\
@@ -781,7 +781,7 @@ ID,ClassName,Created,LastEdited,URLSegment,Title,MenuTitle,Content,MetaTitle,Met
 <h4>View bar</h4>\
 <p><strong>Location: on the very bottom of the screen</strong></p>\
 <p>The View Bar allows you to switch between the three views available within SilverStripe CMS: the editing view of the CMS, how your proposed website will look when and if it is published, and what the current, live, published page looks like.  Additionally, you can find on the right side of the View Bar a place to logout or alter your user profile. </p>","Basic overview",\N,\N,\N,"1","1",\N,"1","3",\N,"0","0","Published",\N,"Anyone","LoggedInUsers",\N,"0","35","0.9"
-"52","Page","2010-06-11 10:27:19","2010-08-18 08:59:22","content-review","Content review",\N,"<h3>Setting content owners and review dates</h3>\
+"52","HelpPage","2010-06-11 10:27:19","2010-08-18 08:59:22","content-review","Content review",\N,"<h3>Setting content owners and review dates</h3>\
 <p> </p>\
 <div class=\"note\">\
 <h3>Notes:</h3>\
@@ -789,4 +789,4 @@ ID,ClassName,Created,LastEdited,URLSegment,Title,MenuTitle,Content,MetaTitle,Met
 <p> </p>\
 </div>\
 <p>To set a content owner for a page, and give a review date for that  page which will generate an alert in the report section of the CMS when  that report is due, click on the page you wish to set a report for in  the Page Tree of the Contents pane. <br/><br/>Click on the \"Review\" tab in  the editing pane. Choose the page owner from the drop-down \"Page owner\"  menu. You can then set the review date using the built in calendar, and  if you want to have repeated reviews, you can change the frequency of  reviews by the drop-down box. This will alert the content owner via a  report in the CMS (viewable in the \"Reports\" section on the navigation bar) and via e-mail.</p>","Content review",\N,\N,\N,"1","1",\N,"1","6",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"5","9","0.8"
-"56","Page","2011-11-23 11:46:49","2011-11-23 11:47:12","search-results","Search Results",\N,\N,"Search Results",\N,\N,\N,"1","1",\N,"0","10",\N,"0","0","Saved (new)",\N,"Inherit","Inherit",\N,"0","2","1.0"
+"56","HelpPage","2011-11-23 11:46:49","2011-11-23 11:47:12","search-results","Search Results",\N,\N,"Search Results",\N,\N,\N,"0","0",\N,"0","10",\N,"0","0","Saved (new)",\N,"Inherit","Inherit",\N,"0","2","1.0"
