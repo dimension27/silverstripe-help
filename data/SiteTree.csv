@@ -1,0 +1,792 @@
+ID,ClassName,Created,LastEdited,URLSegment,Title,MenuTitle,Content,MetaTitle,MetaDescription,MetaKeywords,ExtraMeta,ShowInMenus,ShowInSearch,HomepageForDomain,ProvideComments,Sort,LegacyURL,HasBrokenFile,HasBrokenLink,Status,ReportClass,CanViewType,CanEditType,ToDo,ParentID,Version,Priority
+"1","Page","2010-05-24 15:37:37","2010-08-10 13:53:57","home","SilverStripe User Help","Home","<h2>Welcome!</h2>\
+<p> </p>\
+<p>If you are creating content or managing a website built with <a href=\"http://silverstripe.org/silverstripe-cms/\">SilverStripe CMS</a>, you have come to right place. SilverStripe CMS User Help is a reference for editors and administrators of SilverStripe websites. We hope you find it useful.</p>\
+<p><strong>Please note that this version of user help applies to SilverStripe CMS 2.4 and higher. If your site is running on an older version of SilverStripe CMS, you may want to refer to the previous version of User Help for SilverStripe CMS 2.3 at <a href=\"http://2.3.userhelp.silverstripe.org\">2.3.userhelp.silverstripe.org</a></strong><strong>. </strong></p>\
+<p>This user help also covers a number of <a href=\"http://silverstripe.org/modules\">modules</a> which may or may not be installed for your site. Refer to the intro for each chapter to find out the prerequisites for using a feature.</p>\
+<p>If you are a developer, we encourage you to join the <a href=\"http://www.silverstripe.org/forums/\">SilverStripe development community</a> as the first port of call for help.</p>\
+<p>If you are a customer of SilverStripe Ltd. and are looking for our company website, please visit <a href=\"http://www.silverstripe.com\" target=\"_blank\">silverstripe.com</a>. <a href=\"http://www.silverstripe.com/contact\" target=\"_blank\">Contact us.</a></p>\
+<p>Version 2.0, August 2010. This  <span>work</span> is licensed under a  <a rel=\"license\" href=\"http://creativecommons.org/licenses/by/3.0/\">Creative Commons Attribution 3.0 License</a>.</p>\
+<hr/><p>We would like to thank all the people who have helped us beta-test this user help, namely:</p>\
+<p>Fred Condo, Anita Graham, <a href=\"http://www.greenskate.co.nz\">Nigel Vining</a>, <a href=\"http://svendigital.co.za\">Stephen Metcalfe</a>, <a href=\"http://www.dragnet.se\">Marcus Dalgren</a>, and the users going by the names of <a href=\"http://www.axyrmedia.nl\">Martijn</a>, Mike, Sunnybex, Fil, and Stefdv.</p>","SilverStripe User Help",\N,\N,\N,"0","1",\N,"1","1",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"0","27","1.0"
+"4","ErrorPage","2010-05-24 15:37:37","2010-08-04 13:56:24","page-not-found","Page not found",\N,"<p>Sorry, it seems you were trying to access a page that doesn't exist.</p>\
+<p>Please check the spelling of the URL you were trying to access and try again.</p>",\N,\N,\N,\N,"0","0",\N,"0","7",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"0","3","1.0"
+"5","Page","2010-06-01 13:37:43","2010-08-17 15:31:38","for-website-content-editors","For website content editors",\N,"<p>In this section, you can learn to:</p>\
+<ul><li><a href=\"[sitetree_link id=18]\" target=\"_blank\">Create and edit content</a></li>\
+<li><a href=\"[sitetree_link id=6]\" target=\"_blank\">Work with images and documents</a></li>\
+<li><a href=\"[sitetree_link id=9]\" target=\"_blank\">Manage your site</a></li>\
+<li><a href=\"[sitetree_link id=10]\" target=\"_blank\">Understand web content best practices</a></li>\
+<li><a href=\"[sitetree_link id=12]\" target=\"_blank\">Create and use blogs</a></li>\
+<li><a href=\"[sitetree_link id=52]\" target=\"_blank\">Set content owners and review dates</a></li>\
+<li><a href=\"[sitetree_link id=11]\" target=\"_blank\">Create and use forms</a></li>\
+<li><a href=\"[sitetree_link id=13]\" target=\"_blank\">Create and use forums</a></li>\
+<li><a href=\"[sitetree_link id=14]\" target=\"_blank\">Understand workflow</a></li>\
+<li><a href=\"[sitetree_link id=15]\" target=\"_blank\">Learn to work with multiple sites</a></li>\
+</ul>","For website content editors",\N,\N,\N,"1","1",\N,"1","4",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"0","11","0.9"
+"6","Page","2010-06-01 13:55:15","2010-09-17 13:44:59","working-with-images-and-documents","Working with images and documents",\N,"<h3>In this section:</h3>\
+<ul><li>Learn how to upload one image or multiple images to a site. </li>\
+<li>Learn how to insert images into the content of a webpage.</li>\
+<li>Learn how to upload PDF, .DOC, audio, and video documents and link to them in the content of a webpage.</li>\
+<li>Learn how to manage uploaded files.  </li>\
+</ul><h3>Inserting images</h3>\
+<p>There are two ways to upload images: a relatively simple way for single images, or if you have multiple images to upload, a more robust way.  Once the image has been uploaded it can be used in multiple pages on the site.  </p>\
+<h4>Uploading single images</h4>\
+<p>The simplest way to insert an image stored on your local hard drive into a webpage is to go to that webpage in the Pages tab, and click the \"Insert Images\" button on the toolbar in the Editing Pane. (It's the picture of the little tree). This will bring up, on the right side of the editing pane, the Images sidebar. </p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600422-Screen shot 2010-06-28 at 3.06.16 PM.png\" width=\"600\" height=\"422\" alt=\"\" title=\"\"/></p>\
+<p>In the Images sidebar, choose \"upload file.\" This will open up the upload file form.  Press the button labeled \"Choose File.\" You can then upload a file from your hard drive. A small thumbnail of the image should appear in the Images sidebar.  </p>\
+<p>Sample Image:<img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage163119-ihavecake.jpg\" width=\"163\" height=\"119\" alt=\"\" title=\"\"/></p>\
+<p> </p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-28%20at%203.06.32%20PM.png\" width=\"213\" height=\"119\" alt=\"\" title=\"\"/></p>\
+<p> </p>\
+<div class=\"note\">\
+<h3>Notes:</h3>\
+<p>Once a photograph has been uploaded, you can re-use it in multiple places in your website. You will want to see \"Inserting previously uploaded images\" below for details on how to re-use a photograph, and \"Managing Files\" to organize and maintain image files uploaded to the Web site. </p>\
+<p> </p>\
+</div>\
+<h4>Uploading multiple images</h4>\
+<p>To upload multiple images, click on the \"Files &amp; Images\" tab in the Navigation Tabs on the top of the page. (Be sure to save any page you are working on in the editing page to a draft before doing so, otherwise you may lose any changes you have made since the last save).</p>\
+<p>Click on the \"Upload\" tab in the main area of the CMS (where the Editing pane would normally be).  From the upload tab, click on the \"Choose File\" button to choose your first file to upload.  Repeat this process for every file you wish to upload.  When all of the files you with to upload are listed, click the \"Upload Files Listed Below\" button to upload all the images.  </p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-28%20at%203.09.48%20PM.png\" width=\"331\" height=\"175\" alt=\"\" title=\"\"/></p>\
+<p> </p>\
+<blockquote>\
+<h4>Notes: </h4>\
+<p>This same process can be used for filetypes other than images as well, which we will cover in \"Uploading and Linking to Documents.\" </p>\
+</blockquote>\
+<h4>Inserting uploaded images</h4>\
+<p>Once you have uploaded an image, you can insert it into any document.  Make sure the document you want to add the image to is in the Editing Pane, then click on the \"Insert Images\" button.  This should bring up thumbnails for images uploaded to the site. If you do not see the image you want, it may be in another folder.  You can choose which folder you would like to view by clicking on the \"Folder\" drop-down box on the top of the Image sidebar. Additionally, you can use the provided search box to search by the image's filename.  </p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600445-Screen shot 2010-06-28 at 3.06.58 PM.png\" width=\"600\" height=\"445\" alt=\"\" title=\"\"/></p>\
+<p>When you see the image you want, click on the image to select it.  You can then add alternative text, which is shown if the image cannot be displayed (for example, on text-only web browsers, or screen readers for the blind) and title text, which shows additional information about the image when the mouse rolls over the image.  If you wish to add a caption, you can do so.  You can also choose the alignment and text wrapping properties of the image as well as the dimensions of the image to be displayed in the site.  </p>\
+<p>When you are done entering this information, hit the \"Insert Image\" button on the bottom right of the Images sidebar.  This will place the image in your text where your cursor was in the editing pane.  </p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600446-Screen shot 2010-06-28 at 3.07.14 PM.png\" width=\"600\" height=\"446\" alt=\"\" title=\"\"/></p>\
+<p> </p>\
+<h4>Uploading and linking to documents</h4>\
+<p>To upload documents, such as PDF files, Word .DOC documents, and downloadable audio and video files, click on the \"Files &amp; Images\" tab in the Navigation Tabs on the top of the page. (Be sure to save any page you are working on in the editing page to a draft before doing so, otherwise you may lose any changes you have made since the last save).</p>\
+<p>Click on the \"Upload\" tab in the main area of the CMS (where the Editing pane would normally be).  From the upload tab, click on the \"Choose File\" button to choose your first file to upload.  Repeat this process for every file you wish to upload.  When all of the files you with to upload are listed, click the \"Upload Files Listed Below\" button to upload all the documents.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-28%20at%203.19.29%20PM.png\" width=\"265\" height=\"225\" alt=\"\" title=\"\"/></p>\
+<p>To link to documents, return to the page you wish to create the link in by clicking on the \"Pages\" Navigation tab, and choose the page you wish to edit. Highlight the text you would like to make into a hyperlink, and choose \"Download a file\" from   the list of options on the top of the Link sidebar.  You may choose the document from the dropdown menu, or type in the filename or part of the filename to conduct a search for the document. Your \"Link Text\"  should be automatically filled  in with the highlighted text in the  Editing Pane. </p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600257-Screen shot 2010-06-28 at 3.25.37 PM.png\" width=\"600\" height=\"257\" alt=\"\" title=\"\"/></p>\
+<p>Finally,  to insert the link, click the \"Insert Link\" button on the  Link sidebar. In the page, there will be a small icon indicating that the link leads to a document, and the document type will be apparent from the icon.  For example, PDF files will show an Adobe Acrobat document icon. </p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen-shot-2010-07-08-at-2.02.05-PM.png\" width=\"171\" height=\"41\" alt=\"\" title=\"\"/></p>\
+<h4>Managing files</h4>\
+<p>To manage your uploaded files, head to the \"Files &amp; Images\" tab in the Navigation Tabs at the top of the page. The Contents Pane on the left side of the screen will now show a list of the directories that hold files in your website.  This includes both images and documents such as PDF files, and can also include javascript files.</p>\
+<h4>Creating, moving, and deleting folders</h4>\
+<p>You can create new folders to store images and documents by clicking on the \"Create\" button on the top of the Contents Pane.  The newly created folder will be placed as a subfolder of whatever folder you currently have selected.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-28%20at%203.26.54%20PM.png\" width=\"209\" height=\"182\" alt=\"\" title=\"\"/></p>\
+<p>To re-order folders, you can check the \"Allow drag &amp; drop reordering\" option near the top of the Contents pane, then you can simply drag and drop the folders and place them where you would like within the site's hierarchy. (When you are done, it is a good idea to uncheck \"Allow drag &amp; drop reordering\" in order to avoid inadvertantly dragging and dropping folders accidentally).</p>\
+<p>To delete a folder, click on the folder you wish to delete in the Contents Pane and press \"Delete Folder.\" This will bring up check boxes next to every folder; if you wish to delete multiple folders, you may select those folders at that time.  Making sure that <em>only</em> the folders you want to delete are selected, you may then delete them by pressing the \"Delete the selected folders\" button.</p>\
+<h4>Searching for images and documents</h4>\
+<p>To search for an image, type the whole or partial filename in the \"Search\" field in the Files tab in the Editing Pane.<img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600183-Screen shot 2010-06-28 at 3.27.26 PM.png\" width=\"600\" height=\"183\" alt=\"\" title=\"\"/></p>\
+<h4>Moving and deleting images and documents</h4>\
+<p>To move a document, select the folder it is in, and choose the Files tab in the Editing Pane.  Locate the file, (you may need to browse through multiple pages using the arrow keys if there are a large number of images in the folder), and then drag and drop the file to any folder in the Contents pane by dragging the \"Drag\" bar next to each file listing.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage395298-Screen shot 2010-06-28 at 3.27.57 PM.png\" width=\"395\" height=\"298\" alt=\"\" title=\"\"/></p>\
+<h4>Renaming images and documents</h4>\
+<p>To rename a document, select the folder it is in, and choose the Files tab in the Editing  Pane.  Locate the file, (you may need to browse through multiple pages  using the arrow keys if there are a large number of images in the  folder), and then press the \"Edit\" icon to the right of the document listing.  A pop-up window will appear, and you can rename the document. Hit \"Save,\" and close the popup window.</p>\
+<h4>Deleting images and documents</h4>\
+<p>To rename a document, select the folder it is in, and choose the Files  tab in the Editing  Pane.  Locate the file, (you may need to browse  through multiple pages  using the arrow keys if there are a large number  of images in the  folder), and then press the \"Delete\" icon to the right of the document listing.</p>\
+<div class=\"note\">\
+<h3>Notes:</h3>\
+<p>By default, uploaded files are placed in the \"Uploads\" directory.</p>\
+<p>If you place an image in a webpage, and later move or rename that image in \"Files &amp; Images,\" SilverStripe CMS will automatically keep track of those changes, so your webpage will remain unchanged - you don't even have to republish the page. [Editor's Note: Isn't that awesome?]</p>\
+<p> </p>\
+</div>","Working with images and documents",\N,\N,\N,"1","1",\N,"1","2",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"5","51","0.9"
+"9","Page","2010-06-01 13:56:35","2010-08-18 08:54:29","managing-your-site","Managing your site",\N,"<h3>In this section:</h3>\
+<ul><li>Learn the different content types</li>\
+<li>Learn how to move pages within the site</li>\
+<li>Learn how to hide a webpage</li>\
+<li>Learn how to delete a webpage</li>\
+<li>Learn how to view an old version of a page, and roll back to that version. </li>\
+<li>Learn how to search for a page</li>\
+<li>Learn how to publish multiple pages</li>\
+<li>Learn how to set content owners and review dates</li>\
+<li>Learn how to add \"To Do\" items. </li>\
+</ul><p>Before we begin:</p>\
+<ul><li>Make sure you are in the \"Pages\" section on the navigation tabs. </li>\
+</ul><h3>Page types</h3>\
+<p>There are many different types of pages in SilverStripe, each with its own functionality and purpose. By now you already know how to create a basic page. It is also possible to change a page from one page type to another.</p>\
+<h4>Different page types and their functions</h4>\
+<h6>Basic pages</h6>\
+<ul><li><strong>Page</strong> - The most basic page type. It contains content, and has no customised functionality or special purpose. Most pages you create on your site will be of this type. </li>\
+<li><strong>Home Page</strong> - The Home Page behaves like any other page, with the exception that it is the home page for your site - what users will see first if they browse directly to the root of your domain. </li>\
+<li><strong>Error Page</strong> - The page displayed when an error is produced by the website. Error pages can be created for individual error types, so for example, a 404 \"Page not found\" can look different from a 403 \"Forbidden\" page.</li>\
+<li><strong>Redirector to another page</strong> - This page on the website redirects the user to either another page on the same website, or a page on an external website.</li>\
+<li><strong>Virtual Page</strong> - A virtual page uses the content of another page. This is different from a redirector, as a redirector essentially links one location on the website to another, while a virtual page copies the content of the other page. Editing the page the virtual page is based on will, in turn, edit the copied virtual page.</li>\
+</ul><h6>Other types of pages</h6>\
+<ul><li><strong>Blog Holders and Blog Entries </strong>- See the \"Blogs\" section. </li>\
+<li><strong>Forum Holders and Forum Entries</strong> - See the Forums section</li>\
+<li><strong>User Defined Forms</strong> - See the Forms section</li>\
+</ul><h4>Changing an existing page type</h4>\
+<p>To change a page type, look in the Contents pane for the page you wish  to change. Click on it, and head to the \"Behaviour\" tab in the editing pane. You can change the page type from the \"Page type\" drop-down menu.  Save your changes by pressing \"Save\" in the bottom right hand corner of  the editing pane.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600265-Screen shot 2010-06-28 at 3.34.19 PM.png\" width=\"600\" height=\"265\" alt=\"\" title=\"\"/></p>\
+<h3>Moving pages within the site</h3>\
+<p>To move a page within the site, head to the Contents pane on the left side of the screen. At the top of the content page should be a check-box next to \"Allow drag &amp; drop reordering.\" By default, this should be turned off, in order to prevent errant clicks from altering the content of the site by accident. </p>\
+<p>Clicking on that checkbox will enable drag and drop reordering, and you can move a page by clicking on it, and dragging it to its new position in the website.  After you are done moving pages, it's a good idea to turn off the checkbox next to \"Allow drag &amp; drop reordering\" to prevent the accidental reordering of webpages.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-28%20at%203.34.54%20PM.png\" width=\"221\" height=\"324\" alt=\"\" title=\"\"/></p>\
+<h3>Hiding pages</h3>\
+<p>To hide a web page, choose the page you wish to hide in the Contents pane on the left hand side, then choose the \"Behaviour\" tab in the editing pane. <br/><br/>You can remove your site from being listed in your site's navigation bar by removing the checkmark next to \"Show in menus.\"<br/><br/>You can remove your site from being listed in search results by removing the checkmark next to \"Show in search.\" <br/><br/>After you have made these changes, hit the \"Save\" button in the bottom right hand of the editing pane.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600267-Screen shot 2010-06-28 at 3.34.35 PM.png\" width=\"600\" height=\"267\" alt=\"\" title=\"\"/></p>\
+<h3>Deleting pages</h3>\
+<h4>Deleting individual pages</h4>\
+<p>To delete an individual page, click on the page you want to delete in the Contents pane. In the Main tab inside the Content tab in the editing pane, you will see in the bottom right hand corner two buttons, \"Unpublish\" and \"Delete from the draft site.\" <br/><br/>The \"Unpublish\" button will remove the current webpage from the public-facing front end of your site. However, the content will remain as a draft, and no data will be lost - the page will remain in the CMS. <br/><br/>The \"Delete from Draft Site\" button will remove the current webpage from the back-end CMS, but if you have previously published it, it will not be removed from the public-facing front-end of your site. <br/><br/>To completely delete a webpage, click on \"Unpublish\" first, then click on \"Delete from the draft site.\" <img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-28%20at%203.36.53%20PM.png\" width=\"451\" height=\"43\" alt=\"\" title=\"\"/></p>\
+<p> </p>\
+<h4>Deleting multiple pages</h4>\
+<p>To delete multiple pages, click \"Batch Actions\" on the top of the  content pane. Each page in the page tree in the Contents pane should now  have a checkbox next to it. Check all the pages you want to delete.  (And perhaps more importantly, make sure NOT to check those pages you do  not want to delete.) <br/><br/>From the drop-down menu at the top of the  contents pane, choosing \"Delete from Published Site\" will remove the  page from the public-facing portion of the website, but retain a copy of  those pages in the backend CMS. <br/><br/>Choosing \"Delete from draft  site\" will remove the page from the backend CMS, but the page will  remain on the public-facing portion of the website. <br/><br/>To  completely delete multiple pages, you must do both. The order of  deletions in \"Batch Actions\" does not matter, though it's generally a  good idea to delete from the published site first, then delete from the  draft site.<img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-28%20at%203.37.33%20PM.png\" width=\"205\" height=\"384\" alt=\"\" title=\"\"/></p>\
+<h3>Previous versions of pages</h3>\
+<h4>Viewing previous versions</h4>\
+<p>Click on the page you want to view a previous version of in the Contents pane's \"Page Tree.\" <br/><br/>At the bottom of the Contents pane, you will find a small grey bar marked \"Page Version History\" with a chevron. Click on those chevrons to bring up the Page Version History window in the Contents pane.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-28%20at%203.38.05%20PM.png\" width=\"216\" height=\"596\" alt=\"\" title=\"\"/></p>\
+<p> </p>\
+<p>Click on any of the listed versions to look at the content of the page. If you want to view draft versions of pages as well as published versions, click the \"Show unpublished versions\" checkbox.</p>\
+<h4>Comparing page versions</h4>\
+<p>To compare two versions of the site, click on \"Compare mode (click 2 below)\" and click on one version of the site, and then another version of the site. Items that have been added to the site in the newer version that were not in the older version will be highlighted in green, while items that were deleted from the older version will be highlighted in pink, with a strikethrough through any text that was deleted.</p>\
+<h4>Rolling back changes</h4>\
+<p>To roll back to a previous version, select the version you with to roll the page back to, and click on \"Roll back to this version\" in the editing pane.</p>\
+<div class=\"note\">\
+<h3>Notes:</h3>\
+<p>When a page is rolled back to the previous version, it is only rolled back in the backend CMS as a draft. To show the rolled back page on the public-facing website, it needs to be published by pressing \"Save and Publish.\"</p>\
+<p> </p>\
+</div>\
+<h3>Searching for pages</h3>\
+<p>To search for a page, click on the \"Search\" button on the top of the Contents pane. This will bring up an entry form.</p>\
+<p>The default search mode is by text, and you can type any text to search your pages for that text. Pressing search will show only positive results in the Page Tree on the Contents pane. <br/><br/>Search results will remain the only items in the Page Tree until the \"Clear\" button is pressed. <br/><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-28%20at%203.46.43%20PM.png\" width=\"209\" height=\"398\" alt=\"\" title=\"\"/><br/>You can also use the drop-down menu marked \"Add criteria\" to search by different criteria, including \"Edited since,\" \"Page Type,\" \"Title,\" \"Navigation Label,\" \"Status,\" \"Description,\" or \"Keywords.\"</p>\
+<div class=\"note\">\
+<h3>Notes:</h3>\
+<p>One neat trick is that you can search for pages, and then perform a batch action upon them, such as deleting them or publishing them. For example, by searching for Page Type: \"BlogEntry\" and Edited Since: \"(whatever last Thursday was)\" you can then create a quick batch action to publish all blog posts written since last Thursday.</p>\
+<p> </p>\
+</div>\
+<h3>Publishing multiple pages</h3>\
+<p>To publish multiple pages, click \"Batch Actions\" on the top of the   content pane. Each page in the page tree in the Contents pane should now   have a checkbox next to it. Check all the pages you want to publish.   <br/><br/>From the drop-down menu at the top of the   contents pane, choosing \"Publish\" will publish the pages on the public-facing portion of the website.</p>\
+<h3>Setting To-Dos</h3>\
+<p>To set a To-Do note, browse to the page you wish to make a note on in  the Page Tree in the Contents pane on the left-hand side of the screen.  In the Editing pane, click on the \"To-do\" tab. Type in your To-Do note,  then press \"Save\" in the bottom right hand corner of the editing pane to  save the note.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600158-Screen shot 2010-06-28 at 4.18.07 PM.png\" width=\"600\" height=\"158\" alt=\"\" title=\"\"/></p>","Managing your site",\N,\N,\N,"1","1",\N,"1","3",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"5","51","0.9"
+"10","Page","2010-06-01 13:56:47","2011-03-30 08:22:53","web-content-best-practices","Web content best practices",\N,"<h3>In this section:</h3>\
+<ul><li>Learn how to make your site search-engine friendly</li>\
+<li>Learn how to make your content accessible</li>\
+<li>Other web best practices</li>\
+</ul><h2>Making your content search engine friendly</h2>\
+<p>Much of your website traffic will come from search engines. To ensure your website is findable, you need to write and mark up your content in a way that allows the search engine to present  the most relevant results. Put another way, search engine friendly content will get more relevant traffic to your site.</p>\
+<p>What makes a site search engine friendly? Two things:</p>\
+<ul><li>Relevant content.</li>\
+<li>A site built to standards, in other words, in an accessible way. </li>\
+</ul><p>Search engine friendliness and accessibility are very closely related - you can think of Google as just another blind user.</p>\
+<p>SilverStripe CMS automatically does a number of things that make your site search-engine friendly and accessible. As a website editor, you don't have to concern yourself with the code side of things. However, there is much you can do to when it comes to your content:</p>\
+<ul><li>Post <strong>relevant content</strong>. This may sound obvious, but it's the most important thing you can do as an editor. If your content is relevant to your users, your site wil rank higher for the search terms they are using.</li>\
+<li>If it's important to you to rank highly for <strong>specific phrases</strong>, it's key to  literally mention these phrases in the first paragraph of relevant  pages on the site. The absolute best way to rank number one is to have  dedicated pages for these phrases. In the title of these pages would be  the phrases you wish to rank for.</li>\
+<li>Use CMS tools for to properly <strong>mark up</strong> your content.</li>\
+<li>Ensure <strong>correct spelling</strong> across all your content - typos make the site rank lower.</li>\
+<li>Ensure there are <strong>no broken links</strong> in your site - again, broken links will make your site rank lower.</li>\
+<li>Provide<strong> text alternatives</strong> for media content, such as ALT text for your images, since search engines can't see images, just their descriptions.</li>\
+</ul><h3>URLs, page names, titles and navigation labels</h3>\
+<p>When you first create a new page, start by entering its name in the<strong> Page name</strong> field on the Main tab. SilverStripe CMS automatically populates a number of other fields based on that name. You can leave them as is, or change them individually.</p>\
+<p>Why should you care? It's useful to know where and how the different names are displayed.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/main-1.png\" alt=\"Screenshot: Page name and Navigation label fields\" width=\"385\" height=\"174\" title=\"\"/><br/><img class=\"leftAlone\" src=\"assets/screenshots/metadata.png\" alt=\"Screenshot: URL and Title fields\" width=\"480\" height=\"176\" title=\"\"/></p>\
+<p> </p>\
+<ul><li>The <strong>Page</strong> <strong>name</strong> is what generates the main headline (the &lt;h1&gt; tag) for the page's content.</li>\
+<li>The <strong>Navigation label</strong> is what appears in your site's navigation. Sometimes when you have a lengthy page name, it makes sense to create a shortened navigation label.</li>\
+<li>The <strong>URL</strong> gets generated based on the page name, using the words and dashes. Human-readable URLs make a page more easily found by search engines. Most of the time, the URL that SilveStripe CMS generates will be fine, but you can manually change it if necessary.</li>\
+<li>The <strong>Title</strong> is what appears in the browser's title bar and tabs, and in Google's search results page (the &lt;title&gt; meta tag.) Page titles should be unique, and shouldn’t exceed 65 characters (spaces included), as Google only shows the first 65 characters in search result titles.</li>\
+</ul><div class=\"note\">\
+<h3>Notes:</h3>\
+<p>Your website developer will have configured your SilverStripe site for either simple or hierarchical or URLs.</p>\
+<p><strong>Simple URLs</strong> only use a single level of depth. For example, a page for a staff member might be called \"John Smith\", and its URL would be http://website.com/john-smith. Simple URLs are short and memorable, however, you are more likely to have multiple pages with the same name.</p>\
+<p>If a URL is already in use, the CMS will generate URLs with numbers, e.g., /staff-members-1, /staff-members-2, etc.</p>\
+<p>In this case, it's a good idea to manually change the URLs to something more meaningful, such as /staff-members-berlin, /staff-members-hong-kong.</p>\
+<p><strong>Hierarchical URLs</strong> provide a logical path for a page as it exists in the site's structure. In our example, this might be http://website.com/offices/new-york/staff/john-smith</p>\
+<p> </p>\
+</div>\
+<h3>Keywords and meta tags</h3>\
+<p>Meta tags also make your web page more findable. The <strong>Description</strong> meta attribute should contain a concise and relevant summary of what the page contains. This will show in search engine results, and helps visitors understand the content of the page.</p>\
+<p>Keywords can be used to further describe your page, and help to make your page more findable by search engines.  Think about the words users would type in a search engine to find your pages, and make sure that your page includes those words within it.</p>\
+<div class=\"note\">\
+<h3>Notes:</h3>\
+<p>Google doesn’t like repetition of keywords and phrases in the title,  description or keywords.  It sees this as 'keyword stuffing', which is  looked at as search engine spam (not good!) Avoid this.</p>\
+<p> </p>\
+</div>\
+<h3>Clean HTML</h3>\
+<p>SilverStripe CMS generates clean HTML code when you type your content into the CMS. However, often you already have content in another format, such as Microsoft Word, which you need to simply transfer into the CMS.</p>\
+<p>Avoid cutting and pasting directly from a word processor with the  standard cut and paste functions.  Always \"Paste from Word\" if using  Microsoft Word, or \"Paste as Text\" if using another word processor.   Word processors tend to do poor jobs of creating web markup code and often insert extraneous code which make your site less search-engine friendly and accessible.</p>\
+<h2>Making your content accessible</h2>\
+<h3>Why does accessibility matter?</h3>\
+<p>An accessible website means that it can be viewed by the widest audience possible. Accessibility not only refers to people with physical disabilities (such as blind users), but also people with cognitive, learning or motor skills disabilities, and people who access your site with mobile devices or old, outdated technology. Lastly, as mentioned previously, search engines can be considered disabled users in the sense that they can't' see your design or images or interact with your site.</p>\
+<p>Accessibility is important for a number of reasons:</p>\
+<ul><li>Ethical—being inclusive is the right thing to do and has a  positive impact on how your audience perceives you or your organisation.</li>\
+<li>Business—sites that can be used by everyone have a larger audience. They are more findable and therefore generate more traffic/business. Accessible  sites are also easier to maintain, resulting in fewer ongoing costs.</li>\
+<li>Legal—many governments require websites to comply with certain standards. Details depend on your country, however, typically the guidelines are based on the <a href=\"http://www.w3.org/TR/WCAG20/\">Web Content Accessibility Guidelines</a> developed by the World Wide Web Consortium (W3C.) </li>\
+</ul><h3>What can content editors do?</h3>\
+<p>Accessibility is not something you implement once and then have it. There is an infinite number of types of disability, platforms, devices, configurations, so you have to choose to what level you want to comply.</p>\
+<p>The more you know about your users, the better. Web stats, such as Google Analytics, can help you find out about your users' most frequently used browsers and operating systems. User research can help to learn more about how users with disabilities interact with the site - but that's costly and often not an option. Automated tools can help and are a useful first step as they look for all the obvious issues and generate a list of problems. However, it still requires a person to assess and interpret the results and make decisions about items flagged by the automated tools. For example, you can use an automated tool to check whether all your images have alternative text, but you as the editor of your site need to determine if the text in the alt attribute is descriptive and appropriate.</p>\
+<p>The following paragraphs describe some of the quick wins—things you can do easily to greatly increase the accessibility of your site.</p>\
+<h4>Alternative text for images</h4>\
+<p>When embedding images in your content, always provide <strong>alternative text</strong> that can serve as a placeholder in case the image itself cannot be displayed. Alternative text is often referred to as the \"ALT tag\", although that's not technically correct :-). Alternative text is important for those who cannot see the actual image, such as vision impaired users, people with text-only browsers, or search engine, and it should be meaningful and describe what the image shows.</p>\
+<p>In addition, you may also want to add <strong>title text</strong> for your image. Title text is for additional information about your image, such as the name of the photographer, or the date when it was taken. The title text appears as a tooltip when the user hovers over the image.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/image.png\" alt=\"Screenshot: Image insert pane\" width=\"210\" height=\"514\" title=\"\"/></p>\
+<h4>Headings and lists</h4>\
+<p>Mark up your headings by selecting the right heading style from the Format dropdown. Using headings properly gives your content hierarchy and, for example, allows users with screen readers to skip ahead to the next heading. Note that Heading 1 will be the title of your page, and all lower-level headings should be nested properly (e.g., Heading 3 should be within a Heading 2 section, etc.)</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/heading.png\" alt=\"Screenshot: Styles dropdown\" width=\"127\" height=\"133\" title=\"\"/></p>\
+<p>If your content uses lists, select either bullets (unordered list) or numbers (ordered list) - don't use dashes or asterisks to mark up lists.</p>\
+<h4>Links</h4>\
+<p>When you insert a link, make sure your <strong>link text </strong>(the part of your content that's clickable) is meaningful and relates to the page you're linking to. Don't use \"click here\" or \"read more\" as they don't tell the user where your link is going. Think about what would make sense for someone who has the link text read out to them by a screen reader.</p>\
+<p>You may also want to add a <strong>link description</strong>. Especially if your link text isn't too clear, you can provide information about the link's target. Again, this will be read out by screen readers, and the browser will display it as a tooltip when the user hovers over the link.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/link.png\" alt=\"Screenshot: link editor\" width=\"206\" height=\"309\" title=\"\"/></p>\
+<h4>Alternative formats for media</h4>\
+<p>If your site uses other media, such as Flash, audio or video content, document attachments or animations, make sure this content is accessible to users who can't see or hear it, or who don't have the software to view it. How exactly you do this will depend on the kind of content and how critical it is to your site and your users. Typical alternatives would be transcripts, summaries (for example, of PDF documents), captions (for videos), or text-only versions.</p>\
+<h4>Tables and charts</h4>\
+<p>If your site uses graphs to convey information, also provide text-based summaries that describe the information displayed in the graphs.</p>\
+<p>For tables, make sure you mark them up so that screen readers can interpret them correctly (for example, mark header rows/columns as such.) It's also a good idea to provide a text-based summary of the information contained in the table.</p>\
+<p><strong>Further reading: </strong><a href=\"http://www.webaim.org/intro/\">Introduction to Web Accessibility</a> (external link)</p>\
+<h2>Other best practices</h2>\
+<h3>Image dimensions</h3>\
+<p>When you embed images in your content, always specify width and height. This allows the browser to start rendering the page before downloading the actual image, which speeds up  page loading. SilverStripe CMS prepopulates the image dimensions automatically, so unless you want to change them, you don't have to do anything special.</p>\
+<h3>Custom error pages</h3>\
+<p>Sometimes your users will get a Page not Found error because they clicked on an outdated link or misspelled the URL of the page they were looking for. The \"Page not Found\" error is also known as a \"404 error.\"</p>\
+<p>It's a good idea to create a custom 404 page for your site. On this page, you can refer your users to key pages on your site, encourage them to use search or a sitemap, and give them information on how to   contact you about problems with the website.</p>\
+<p>To create a custom error page, click <strong>Create</strong> in the Pages section and select <strong>Error Page</strong>. In the <strong>Main</strong> tab, select Error code <strong>404 - not found</strong>, then create your content as for any other page. Note that you can also create custom pages for other errors, but Page not found is by far the most common one that your users will encounter so you can usually safely ignore the other options.</p>\
+<p><img class=\"left\" src=\"assets/screenshots/error.png\" alt=\"Screenshot: Creating an error page\" width=\"213\" height=\"119\" title=\"\"/></p>","Web content best practices",\N,\N,\N,"1","1",\N,"1","4",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"5","52","0.9"
+"11","Page","2010-06-01 13:57:28","2010-10-12 09:45:58","forms","Forms",\N,"<h3>In this section:</h3>\
+<ul><li>Learn how to create and edit forms</li>\
+<li>Learn how to add fields to a form</li>\
+<li>Learn how to view submissions and reply to them automatically</li>\
+</ul><h3>Before we begin:</h3>\
+<ul><li>Make sure you are in the \"Pages\" section on the Navigation Tabs.</li>\
+</ul><h3>Creating and editing forms</h3>\
+<p>To create a new form, first decide where in the site you want your form to be.  If you would like your form to be a \"subpage\" of an already existing page, click on the parent page in the left-hand Page Tree in the Contents Pane you would like to create the subpage in. If you want your form to be in the top level navigation for your site, you should click on the root of the site - the first item listed in the Contents Pane.</p>\
+<p>On the top of the Contents Pane, you will find a button marked \"Create.\"  Click it, and a drop-down menu will show up.  Select \"User Defined Form\"  Then hit the \"Go\" button.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-28%20at%205.01.52%20PM.png\" width=\"206\" height=\"79\" alt=\"\" title=\"\"/></p>\
+<p>You will notice that a new page has been created, with the name of \"New UserDefinedForm.\"</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-28%20at%205.02.19%20PM.png\" width=\"185\" height=\"53\" alt=\"\" title=\"\"/></p>\
+<p>Simply click on the new page in the content page to bring it up in the editing pane.</p>\
+<div class=\"note\">\
+<h3>Notes:</h3>\
+<p>Don't worry if you create your page in the \"wrong\" place.  Pages can be moved and re-ordered easily, and we will cover that under \"Managing Your Site.\"</p>\
+<p> </p>\
+</div>\
+<h4>Combining forms and content</h4>\
+<p>Much like editing any form page, you can add context, such as text or images, in the Main section of the Contents tab on in the Editing Pane.  Form pages are slightly different, however.  You will notice in a newly created form page, there is some text in the content of the editing menu to begin with: \"$UserDefinedForm\"</p>\
+<p>The purpose of this little block of text is to tell the website where in the page you would like to put the form. The form will appear on the website wherever the \"$UserDefinedForm\" appears in the editing pane, whether it is before text, after text, inside a table, etc.</p>\
+<p>If $UserDefinedForm is deleted by accident or on purpose, SilverStripe automatically puts the form at the end of all the content.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600446-Screen shot 2010-06-28 at 5.02.30 PM.png\" width=\"600\" height=\"446\" alt=\"\" title=\"\"/></p>\
+<h4>Editing options</h4>\
+<p>Click on the \"Form\" tab under the \"Content\" tab in the Editing Pane to access the form options.  You can choose to edit the text on the submission button by writing something in the \"Text on submit button\" field.  You can also give your users an option to clear the form by clicking the checkbox next to \"Clear Form Button.\"</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600206-Screen shot 2010-06-28 at 5.02.57 PM.png\" width=\"600\" height=\"206\" alt=\"\" title=\"\"/></p>\
+<h3>Adding fields</h3>\
+<p>To add a field to the form, click on the \"Form\" tab under the \"Content\" tab in the Editing Pane. Select the type of field you want to add from the drop-down menu and press the \"Add\" button.  You can label any field by typing in the appropriate label field in the backend.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600441-Screen shot 2010-06-28 at 5.04.22 PM.png\" width=\"600\" height=\"441\" alt=\"\" title=\"\"/></p>\
+<h4>Field types</h4>\
+<ul><li><strong>Checkbox Field</strong><a name=\"checkboxfield\"> </a>- Selecting a checkbox field adds a single checkbox to a form, along with a place to store a label for that checkbox.  This is useful for getting information that has a \"Yes or No\" answer, such as \"Would you like to be contacted?\" or \"Have you understood the Terms and Conditions?\"</li>\
+<li><strong>Checkbox Group</strong><a name=\"checkboxgroup\"> </a>- Selecting a checkbox group adds a field for multiple checkboxes to a form, along with a place to store a label for the group.  This is useful for getting information that has multiple discrete answers, such as \"Which continents have you visited?\" or \"Which software programs do you use on a daily basis?\" You will need to click on the \"Show options\" link to add user-selectable options.</li>\
+<li><strong>Date Field</strong> - Selecting a date field adds a field for a date in a form.</li>\
+<li><strong>Dropdown Field</strong><a name=\"dropdownfield\"> </a>- Selecting a drop-down field adds a dropdown field to a form. This is useful for getting information that has only one answer among several discrete choices, for example, \"What country do you live in?\" or \"What subject is your question about?\" You will need to click on the \"Show options\" link to add user-selectable options.</li>\
+<li><strong>Email Field</strong> - Selecting an Email field adds a textbox where an email address can be entered. Using the Email field, instead of a normal text field, to store email addresses, allows you to use that email address in many automated tasks.  For example, it allows the CMS to send reply email automatically when a form is filled out.</li>\
+<li><strong>File Upload Field</strong> - Selecting a File Upload Field adds a field where users can upload a file from their computers.  This is useful for getting documents and media files.</li>\
+<li><strong>Heading</strong><a name=\"heading\"> </a>- Selecting a Heading allows adds a place where you can put a heading for a form, or for a section of your form.  You can choose which level of heading to use (from 1-6) from the \"Show options\" link.</li>\
+<li><strong>HTML Block</strong><a name=\"htmlblock\"> </a>- Selecting an HTML block allows you to add any HTML code you wish into your form.  You can edit the HTML blog from the \"Show options\" link.</li>\
+<li><strong>Member List Field</strong> - Selecting a Member List Field adds a dropdown field which includes various groups of website members (such as administrators or forum members) to the form.  You can choose which group of members from the \"Show Options\" link.</li>\
+<li><strong>Radio Field</strong><a name=\"radiofield\"> </a>- Selecting a Radio field adds a field filed with \"Radio button\" options to a form. Radio buttons are similar to checkboxes, except that only one button in a radio field can be checked at a time.  This is useful for getting information that has only one answer among several discrete choices, for example, \"What country do you live in?\" or \"What subject is your question about?\" It is similar to a dropdown field, but it is more useful for providing larger labels to responses.  For example, a dropdown field may have one or two-word inputs, while a radio button may have choices that are paragraphs in length.  You will need to click on the \"Show options\" link to add user-selectable options.</li>\
+<li><strong>Text Field</strong><a name=\"textfield\"> </a>- Selecting a Text field adds a text field to the form.  You can click on \"Show options\" to determine the size and the number of rows in a text field.</li>\
+</ul><h4>Put<a name=\"new\"> </a>another way, if you'd like to create a question that...</h4>\
+<ul><li>Has a yes or no answer - use <a href=\"#checkboxfield\">Checkbox Field</a>. </li>\
+<li>Has multiple possible answers, from a list of choices - use <a href=\"#checkboxgroup\">Checkbox Group</a>.</li>\
+<li>Has one answer, from a list of choices - use <a href=\"#dropdownfield\">Dropdown Field</a> (for short answers) or <a href=\"#radiofield\">Radio Field</a> (for longer answers).</li>\
+<li>Requires a written answer - use <a href=\"#textfield\">Text Field</a>.</li>\
+</ul><h4>Or perhaps you'd like to add informational content to your form?</h4>\
+<div>\
+<ul><li>Use <a href=\"#htmlblock\">HTML Block</a>, with the appropriate level <a href=\"#heading\">Heading</a>.</li>\
+</ul></div>\
+<h4>Advanced options and custom rules</h4>\
+<p>From any field, you can click on \"Show Options\" to either require that the field be filled out, by clicking the checkbox next to \"Is this field Required?\" and add custom rules.</p>\
+<p>For example, you may wish to hide one form if the answer to another form makes a difference.  If a user does not want to be contacted via email, then there's no reason to get their e-mail address.</p>\
+<p>Custom rules allow you to only show the email field if and when the checkbox for \"Contact me\" is checked. Or you may wish to only show a dropdown box for US states if the user lives in the U.S.</p>\
+<h3>Viewing submissions</h3>\
+<p>You can view submissions to the field by clicking on the \"Submissions\" tab on the content page of the CMS. By default, all submissions are stored in the CMS.  You can disable saving submissions to the server by clicking the checkbox labeled \"Disable Saving Submissions to Server.\"</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600142-Screen shot 2010-06-28 at 5.04.43 PM.png\" width=\"600\" height=\"142\" alt=\"\" title=\"\"/></p>\
+<h4>When the form is completed</h4>\
+<p>You can create a \"Form Received\" or \"Thank You\" page by clicking on the \"On Complete\" tab in the Content tab in the Editing Pane of the form.  This page will show to the user when the user successfully completes and submits a form.</p>\
+<h4>Creating an email recipient</h4>\
+<p>You can have submissions automatically emailed to an email address when someone submits a form, by clicking on the \"Email Recipients\" tab under the Content tab in the editing pane of the form, and clicking on \"Add An Email Recipient.\" You can specify subject, from address, to address, and add text for the body of the form.</p>\
+<p>Using this form, you can set up an automatic reply to any submission you receive, or have the CMS email someone within your organisation to look at.  You can even do both by setting up two separate email recipients.</p>","Forms",\N,\N,\N,"1","1",\N,"1","7",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"5","27","0.9"
+"12","Page","2010-06-01 13:58:10","2010-08-18 08:57:04","blogs","Blogs",\N,"<h3>In this section:</h3>\
+<ul><li>Learn how to create blogs</li>\
+<li>Learn how to post to a blog</li>\
+<li>Learn how to enable or disable comments</li>\
+</ul><p>Before we begin:</p>\
+<ul><li>Make sure that your SilverStripe installation has the Blog  module installed.</li>\
+<li>Make sure you are in the \"Pages\" section on the Navigation  Tabs in  the Content Managment System backend (CMS).</li>\
+</ul><p> </p>\
+<h3>Creating blogs</h3>\
+<h4>Creating a new blog</h4>\
+<p>On the top of the Contents pane, you will find a button marked   \"Create.\"  Click it, and a drop-down menu will show up. Select  \"Blog Holder.\"   Then hit the \"Go\" button.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-28%20at%204.19.16%20PM.png\" width=\"214\" height=\"90\" alt=\"\" title=\"\"/></p>\
+<p>You will notice that a new blog holder page has been created, with the name  of  \"New Blog.\" (You will also notice it's colour is yellow. Yellow  pages are  \"new\" and have never been published).</p>\
+<p>Click on the new blog holder to start creating posts.</p>\
+<div class=\"note\">\
+<h3>Notes:</h3>\
+<p>Don't worry if you create your blog in the \"wrong\" place. Pages can     be moved and re-ordered easily, and we will cover that under \"<a href=\"[sitetree_link id=9]\">Managing Your Site</a>.\"</p>\
+<p> </p>\
+</div>\
+<h4>Naming your blog</h4>\
+<p>To name your blog, click on the blog holder page in the Contents pane, and then, in the Editing Pane, click on the \"Content\" tab if it it not already selected, and then the \"Main\" page. <br/><br/>Here you will be presented with three forms. The first is for the Page name - this will define what the blog will be known as in the CMS, but it will also be used to form the \"default\" navigation label and URL for the page, though both can be changed manually.<br/><br/>Below it, you will find the Navigation Label. This will define what the blog will show up as when listed in forum page on the public-facing front page of your site. If you fill in the Page Name first, it will automatically put the page name in the navigation label field. It is usually, but not always, a good idea to leave it the same. If you wish to change the navigation label but not the page name, you can do so here.<br/><br/>Finally, there is the Content box. In the content box, you can write a description of the blog's contents. This is optional but helps to eliminate ambiguity.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600221-Screen shot 2010-06-28 at 4.19.50 PM.png\" width=\"600\" height=\"221\" alt=\"\" title=\"\"/></p>\
+<h3>Creating a blog post</h3>\
+<p>To create a blog post, click on your Blog Holder page in the Page Tree in the Contents Pane.  Then click the \"Create\" button at the top of the the Contents pane.  Select \"Blog Entry\" from the drop-down menu, and click \"Go.\" This will create a new blog entry as a subpage of your blog holder page.  You may then edit the page like a normal page (see \"<a href=\"[sitetree_link id=18]\">Creating and Editing Content</a>\" for more details).</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-28%20at%204.20.02%20PM.png\" width=\"185\" height=\"61\" alt=\"\" title=\"\"/></p>\
+<h3>Enabling and disabling comments</h3>\
+<p>By default, comments on blog posts are enabled.  To disable comments on a single post, choose the blog post you wish to disable comments for in the Contents pane on the left hand side, then choose the \"Behaviour\" tab in the Editing Pane. You can disable comments by un-checking the box next to \"Allow comments on this page?\"<br/><br/>After you have made these changes, hit the \"Save\" button in the bottom right hand of the editing pane.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600444-Screen shot 2010-06-28 at 4.20.46 PM.png\" width=\"600\" height=\"444\" alt=\"\" title=\"\"/></p>\
+<p><br/><br/></p>","Blogs",\N,\N,\N,"1","1",\N,"1","5",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"5","17","0.8"
+"13","Page","2010-06-01 13:58:15","2010-08-18 11:56:45","forums","Forums",\N,"<h3>In this section:</h3>\
+<ul><li>Learn how to manage forums.</li>\
+<li>Register a new username</li>\
+<li>Learn how to create new topics, (a.k.a. threads)</li>\
+<li>Learn how to create, edit, and publish posts.</li>\
+<li>Learn how to administrate topics.</li>\
+<li>Learn how to administrate forum users.</li>\
+</ul><p>Before we begin:</p>\
+<ul><li>Make sure that your SilverStripe installation has the Forum module installed.</li>\
+<li>Make sure you are in the \"Pages\" section on the navigation tabs in the Content Management System backend (CMS) and you are on your \"Forum Holder\" page. If you do not have a forum holder page, you can create one by clicking on the top level of your website in the CMS, or the page you would like the forum to be a subpage of, hitting the \"create\" button on the top of the site, and choosing \"Forum Holder\" from the drop down menu, and pressing the \"Go\" button.</li>\
+</ul><h3>Managing forums</h3>\
+<h4>Creating a new forum</h4>\
+<p>On the top of the Contents Pane, you will find a button marked  \"Create.\"  Click it, and a drop-down menu will show up. The default  selection should be \"Forum,\" but if it's not, go ahead and select \"Forum.\"   Then hit the \"Go\" button.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-28%20at%205.05.33%20PM.png\" width=\"215\" height=\"86\" alt=\"\" title=\"\"/></p>\
+<p>You will notice that a new forum page has been created, with the name of  \"New Forum.\" (You will also notice it's colour, yellow. Yellow pages are  \"new\" and have never been published).</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-28%20at%205.05.40%20PM.png\" width=\"214\" height=\"82\" alt=\"\" title=\"\"/></p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-28%20at%205.05.21%20PM.png\" width=\"194\" height=\"57\" alt=\"\" title=\"\"/></p>\
+<p>Simply click on the new page in the content page to bring it up in  the editing pane. </p>\
+<div class=\"note\">\
+<h3>Notes:</h3>\
+<p>Don't worry if you create your forum in the \"wrong\" place. Pages can    be moved and re-ordered easily, and we will cover that under \"<a href=\"[sitetree_link id=9]\">Managing Your Site</a>.\"</p>\
+<p> </p>\
+</div>\
+<h4>Naming and editing your forum</h4>\
+<p>In the Editing Pane, to edit your forum, you want to click on the  \"Content\" tab if it it not already selected, and then the \"Main\" page. </p>\
+<p>Here you will be presented with three forms. The first is for the  Page Name - this will define what the forum will be known as in the CMS,  but it will also be used to form the \"default\" navigation label and URL  for the page, though both can be changed manually.</p>\
+<p>Below it, you will find the Navigation Label. This will define what  the forum will show up as when listed in forum page on the  public-facing front page of your site. If you fill in the Page Name  first, it will automatically put the page name in the navigation label  field. It is usually, but not always, a good idea to leave it the same. If you wish to change the navigation label but not the page name, you  can do so here.</p>\
+<p>Finally, there is the Content box. In the content box, you can write a description of the forum's contents. This is optional but helps to eliminate ambiguity.</p>\
+<h4>Enabling, creating, and using categories</h4>\
+<p>If you have many forums on your site, you may want to organise them by category. For example, if your website was about farming, and had a separate forums for each product, you may want to group them into categories, such as: Fruits, Veggies, Meat &amp; Dairy, and Livestock.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600104-Screen shot 2010-06-28 at 5.13.03 PM.png\" width=\"600\" height=\"104\" alt=\"\" title=\"\"/></p>\
+<p>To enable categories, click on the forum holder in the left hand Contents Pane. (The forum holder is the root page of all your forums.) In the Editing Pane, click on the Content tab, then Settings. Check the box next to \"Show forums in categories,\" and hit save.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-28%20at%205.12.33%20PM.png\" width=\"457\" height=\"190\" alt=\"\" title=\"\"/></p>\
+<p> </p>\
+<p>To create categories, click on any of your site's forums in the Contents pane, and click on the \"Category\" tab on the editing pane. Click on Add Forum Category. This will bring up a pop-up menu where you can add a category title and set a priority for the category. Categories with a higher priority (100 is high, 1 is low) will be listed before lower priority categories. Hit Save. You may enter multiple categories at this time, by typing in additional category names and hitting Save after each one. When you are finished adding categories, close the window.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-28%20at%205.13.58%20PM.png\" width=\"567\" height=\"213\" alt=\"\" title=\"\"/></p>\
+<p>To sort forums into different categories, click on each forum you wish to sort in the Contents pane, and go to the \"Category\" tab in the Editing Pane on each one. Select the category you wish each forum to be in, in turn, and hit Save in the bottom right corner of the Editing pane. </p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600176-Screen shot 2010-06-28 at 5.14.31 PM.png\" width=\"600\" height=\"176\" alt=\"\" title=\"\"/></p>\
+<p>Creating New Topics (a.k.a. Threads)</p>\
+<p>To create a new topic, head to the front-end of the live website. Either log-in under your username, or, if you do not have one, register a new username.</p>\
+<h4>Registering a new username</h4>\
+<p>Head to the public-facing website (the \"frontend\") and browse to the forum. Click on the \"Register\" link. You will be brought to a page where you can enter in your personal details. You may enter in your personal information in the fields.</p>\
+<p>Your nickname and any field you mark with a checkbox will be shown in your public profile on the forum. If you do not want a field to show up in your publicly accessible profile, make sure that the checkmark next to these fields are unchecked.</p>\
+<p>If you have an avatar (a small personal photograph or illustration which helps people visually identify you,) you may also upload it at this time, by pressing the browse button next to Upload Avatar and choosing a .JPG, .GIF, or .PNG file from your hard drive. </p>\
+<h4>Signing in with a username</h4>\
+<p>To sign in with your username, head to the public-facing website (the \"frontend\") and browse to the  forum. Click on the \"Login\" link. Enter your user \"nickname\" and the password you chose during registration.</p>\
+<div class=\"note\">\
+<h3>Notes:</h3>\
+<p>If you have forgotten your password, click on \"Forgot Password,\" and  follow the steps to reset or recover your password.</p>\
+<p> </p>\
+</div>\
+<h4>Starting a new topic</h4>\
+<p>To start a new topic, head to the public-facing website, and browse to the forum. Sign in, and click on the forum you would like to add the new topic to. Click on \"Start a new topic,\" and enter in the title of the topic, as well as the content of the first post in the topic, and hit the \"Post\" button. The change should show up immediately. </p>\
+<h4>Editing a previously published post (as the post author)</h4>\
+<p>Once you have made a post, you may edit or delete a post you have authored, by browsing to that post in the forum and hitting the \"Edit\" or \"Delete\" links respectively.</p>\
+<h3>Administrating topics</h3>\
+<h4>Editing or deleting a previously published post (as an administrator)</h4>\
+<p>If you have administrative access, you may edit or delete any post made by any poster, by browsing to that point and hitting the \"Edit\" or \"Delete\" links respectively.</p>\
+<h4>Making threads sticky</h4>\
+<p>To make a thread \"sticky,\" that is, to make sure it always appears at the top of the topic listings for the forum, click the checkbox next to \"Is this a sticky thread?\" and hit Save.</p>\
+<p>To make a sticky thread global - that is, to make sure it always appears at the top of every topic listing on every forum on your site, click the checkbox next to \"Is this a Global Sticky\" as well, and hit Save.</p>\
+<h4>Locking threads as read only</h4>\
+<p>To prevent people from making changes to a topic, (also known as \"locking\" a topic), click the checkbox next to \"Is this a Read only Thread?\" and hit Save.</p>\
+<h4>Changing thread forums</h4>\
+<p>To move a topic from one forum to another, browse to the topic in question, and choose the forum you wish to move the thread to under the \"Change Thread Forum\" drop-down box, and hit Save.</p>\
+<h3>Administrating users</h3>\
+<p>To administrate users, make sure you are in the CMS \"backend\" for administration, and press the \"Security\" navigation tab. This should give you a list of all the users that have registered on the forum or website. </p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600428-Screen shot 2010-06-29 at 10.11.24 AM.png\" width=\"600\" height=\"428\" alt=\"\" title=\"\"/></p>\
+<p> </p>\
+<h4>Deleting user accounts</h4>\
+<p>To delete a user account, click on the red \"X\" icon next to the username for the account. This will remove the account from the forum and website, and the user will not be able to log in using that name again. </p>\
+<h4>Assigning moderation responsibilities to users</h4>\
+<p>To assign moderation responsibilities, click on the \"edit\" icon next to the username for the account. This will bring up the profile of the user. <img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-29%20at%2010.12.21%20AM.png\" width=\"590\" height=\"454\" alt=\"\" title=\"\"/></p>\
+<p>Click on the \"Forum\" tab in the user profile, and change the \"User Rating\" drop-down menu to \"Moderator.\" Hit Save.<br/><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-29%20at%2010.12.31%20AM.png\" width=\"576\" height=\"440\" alt=\"\" title=\"\"/><br/>Click on the \"Moderated Forums\" tab in the user profile, and place a checkmark next to any forums the user will be given moderation access to. Hit Save.<br/><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-29%20at%2010.12.39%20AM.png\" width=\"575\" height=\"437\" alt=\"\" title=\"\"/><br/>After you are done, close the profile by clicking either the \"Close Popup\" link or the red \"X\" in the top right hand corner.</p>\
+<p> </p>\
+<div class=\"note\">\
+<h3>Notes:</h3>\
+<p>While this limited information will suffice for forum administration, administrating users across your SilverStripe site is a much broader topic which will be covered in more under \"<a href=\"[sitetree_link id=45]\">Changing and Managing Users</a>\" in the \"<a href=\"[sitetree_link id=16]\">For Website Administrators</a>\" section.</p>\
+<p> </p>\
+</div>","Forums",\N,\N,\N,"1","1",\N,"1","8",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"5","37","0.9"
+"14","Page","2010-06-01 13:58:24","2010-08-18 11:57:43","workflow","Workflow",\N,"<h3>In this section:</h3>\
+<ul><li>Understand workflow</li>\
+<li>Learn how to request publication (as a content author)</li>\
+<li>Learn how to publish content (as a publisher)</li>\
+<li>Learn how to schedule content to be automatically published or unpublished at a future time</li>\
+</ul><p>In its most basic sense, workflow means that new content or changes to existing content need to go through an approval process before they get published to the live site. This works by limiting access to certain parts of the workflow to certain users, using Roles and Security Groups.  </p>\
+<p>Generally, you use Roles to define what a class of people can do, and Security Groups to determine where in the site the users have access.  </p>\
+<p>SilverStripe CMS Workflow is available in two versions: 2-step, and 3-step.</p>\
+<p>In two step workflow, the author creates or edits content, and then requests publication. The publisher either publishes the content or does not, either sending it back for further edits or deleting it completely.</p>\
+<p>In three step workflow, there is an additional approval step, where someone can approve content for publication, but not actually publish.  </p>\
+<h3>Requesting publication (authors)</h3>\
+<p>Depending on what rights they have, content creators may only have rights to \"request publication,\" and not to publish pages themselves.</p>\
+<p>To request publication, save your page using the \"Save\" button on the bottom right-hand corner of the Editing Pane. Once your content has been saved within the CMS, you can request publication by pressing the \"Request Publication\" button in the same bottom right-hand corner of the Editing Pane.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage60032-Screen-shot-2010-07-08-at-1.30.39-PM.png\" width=\"600\" height=\"32\" alt=\"\" title=\"\"/></p>\
+<p>You will be asked to add a comment about your edits. This comment will become part of the audit trail for your content, and we recommend you add this information. However, it is not enforced, and can proceed while leaving this field blank.</p>\
+<p>Once you have submitted your request, you now have a new Workflow tab. This tab will remain active as long as the page is in an active workflow state, and disappears once the workflow is complete.  </p>\
+<p>The Workflow tab highlights the new (or changed) content and shows additional information about the page. It also shows all comments made to date in the workflow under Discussions and allows you to add more comments under Actions.</p>\
+<p>The publisher will now see your page as a pending approval request when they run Workflow reports. The publisher will then need to review your request.  If they are happy with it, they will publish it.   </p>\
+<p>If the site is configured to send workflow emails, authors will receive an email when changes have been approved, (or denied, or if further edits are needed.) Otherwise, you can find the status of content from workflow reports.</p>\
+<h3>Approving and publishing content (publishers)</h3>\
+<p>Publishers may receive an e-mail when authors have requested publication, depending on the configuration of the website.</p>\
+<p>Publishers can also see a list of all requests that waiting for approval by going to Workflow reports and running the report named \"Publication requests I need to publish.\" This gives you a list of all pages that await your approval.</p>\
+<p>Click on a page name in the report to view its details. You will see what has been changed, highlighted in green for additions and red for deletions.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600230-Screen shot 2010-06-29 at 10.23.45 AM.png\" width=\"600\" height=\"230\" alt=\"\" title=\"\"/></p>\
+<p>Scroll down the Workflow page to Discussions to see a list of all comments made to date in the workflow.</p>\
+<p>Publishers can then scroll down to Actions and choose one of the following options:</p>\
+<ul><li>Publish (or Approve) - The \"Publish\" button publishes the request immediately.  In three-step workflow, this is replaced by the \"Approve\" button.  The difference is that the \"Approve\" button does not publish immediately.  </li>\
+<li>Request edit - The \"Request Edit\" button sends the page back to the author for editing. You should enter a comment instructing the author as to what changes are being made when using this option.  </li>\
+<li>Deny and revert - \"Deny and Revert\" undoes all changes and reverts the draft site back to it's pervious version. This is for completely denying a change made by an author.  </li>\
+<li>Comment - This allows you to add a comment to this page without changing the workflow.</li>\
+<li>Cancel workflow - This ends the workflow, but leaves the new content on the Draft Site unchanged. </li>\
+</ul><h3>Embargo &amp; expiry (publishers)</h3>\
+<p>Publishers can choose to Embargo content - that is, wait until a specific date and time to publish a page, or choose to set an Expiry date - that is, wait until a specific date and time to remove a page from publication.</p>\
+<p>To set either the Embargo or Expiry date, go to the Workflow tab of the page in question, and scroll down to \"Embargo Expiry.\"  Set the appropriate date and time, and hit \"Set Embargo Date\" and/or \"Set Expiry Date.\"  To start the countdown clocks, you must Approve or Publish the content by pressing \"Approve\" or \"Publish\" under Actions at the bottom left of the editing pane.</p>","Workflow",\N,\N,\N,"1","1",\N,"1","9",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"5","12","0.9"
+"15","Page","2010-06-01 13:58:24","2010-08-18 12:03:20","working-with-multiple-sites","Working with multiple sites",\N,"<h3>In this section:</h3>\
+<ul><li>Understand subsites</li>\
+<li>Learn how to create a subsite</li>\
+<li>Learn how to create and use subsite templates</li>\
+<li>Learn how to edit existing subsites</li>\
+<li>Enable/Disable public access to subsites</li>\
+<li>Delete subsites</li>\
+<li>Create a virtual page on a subsite</li>\
+</ul><h3>Before we begin:</h3>\
+<ul><li>Make sure you have the SilverStripe Subsites module installed.</li>\
+<li>Make sure you are in the \"Subsites\" section on the Navigation Tabs. </li>\
+<li>Make sure you have full administrative rights on your site. </li>\
+</ul><p> </p>\
+<h3>Understanding subsites</h3>\
+<p>The SilverStripe Subsites module allows you to manage multiple related sites through a single CMS interface. Because all sites run on a single installation of SilverStripe, they can share users, content and assets. They can all use the same templates, or each use different ones.<br/><br/>To edit a particular subsite, choose the subsite from the dropdown menu in the navigation bar. <img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage60027-Screen shot 2010-06-29 at 10.54.22 AM.png\" width=\"600\" height=\"27\" alt=\"\" title=\"\"/></p>\
+<h3>Creating subsites</h3>\
+<p>In the Subsites section of the CMS, click on \"Create Subsite\" on the left hand side of the screen (the area normally reserved for the Content pane.)  This will bring up the Subsite configuration tab in the Editing Pane. <br/><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-29%20at%2010.41.44%20AM.png\" width=\"265\" height=\"124\" alt=\"\" title=\"\"/><br/>In the Configuration tab, you can edit the name of the subsite, add a domain for the subsite, set a language for the site, enable or disable public access for the subsite, and choose the theme for the website. <img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600470-Screen shot 2010-06-29 at 10.42.03 AM.png\" width=\"600\" height=\"470\" alt=\"\" title=\"\"/><br/><br/>You can, at this point, choose a site from which to copy pages and files if you wish, by choosing a template in the \"Copy Structure From\" drop-down menu. See \"Using Subsite Templates\" for more information. <br/><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-29%20at%2010.52.56%20AM.png\" width=\"551\" height=\"161\" alt=\"\" title=\"\"/><br/>To add your subsite, click the \"Add\" button in the bottom right hand corner of the screen.</p>\
+<h3>Using subsite templates</h3>\
+<p>If you wish to create several subsites based on the same general site structure, you can create a subsite template.  <br/><br/>You can set up a collection of pages, files, and images and save it as a template. Then, when you create a new subsite, you can choose the template you've created from the dropdown menu under \"Copy Structure From.\"</p>\
+<p>To create a new template, create a subsite, and add a name that will make it easy to see that it's a template.  From the dropdown menu labeled \"type\" choose \"New Template.\"  Press the \"Add\" button on the bottom right hand corner of the screen.  <br/><br/>You can edit the template, like any other subsite, by selecting the template in the subsite dropdown menu in the navigation bar.  By editing it, you create a template structure which can be copied to newly created subsites using the \"Copy Structure From\" dropdown menu when configuring a new subsite.</p>\
+<p>Select the new template from the dropdown in the upper right. Create the pages and add the files and images you'd like to become part of the template.</p>\
+<p>When you create a new subsite, you can now choose to Copy structure from your template. All your pages, files and images will be copied over to your new subsite.</p>\
+<h3>Editing existing subsites</h3>\
+<p>To edit an existing subsite, you must first find it using search.  Pressing the \"Search\" button in the left-hand Subsite tab while all fields are blank will return a list of all subsites.  If there are many subsites, and you know the site's name in the CMS or the site's domain name, you can search specifically for that site.  <br/><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-29%20at%2010.53.17%20AM.png\" width=\"250\" height=\"168\" alt=\"\" title=\"\"/><br/>In either case, once you see the name of your subsite in the search results, click on the subsite's name to bring up the configuration tab.<img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600402-Screen shot 2010-06-29 at 10.53.49 AM.png\" width=\"600\" height=\"402\" alt=\"\" title=\"\"/></p>\
+<h3>Enable/disable public access to subsites</h3>\
+<p>To enable or disable public access to the subsite, find the subsite in search (see Editing Existing Subsites) and head to the subsite's configuration tab.  To enable or disable public access check (or uncheck, respectively) the box next to \"Enable public access\" and press the \"Save\" button in the bottom right hand corner of the screen. </p>\
+<h3>Change the theme of the subsite</h3>\
+<p>To change the theme of a subsite, find the subsite in search (see Editing Existing Subsites) and head to the subsite's configuration tab.  To change the theme, select the theme from the drop-down menu labeled \"Theme\" and press the \"Save\" button in the bottom right hand corner of the screen. </p>\
+<h3>Deleting a subsite</h3>\
+<p>To delete a subsite, find the subsite in search (see Editing Existing Subsites) and press the big red \"X\" next to the subsite's name.</p>\
+<h3>Creating a virtual page for a subsite</h3>\
+<p>You can pull in content from a page that resides on another subsite by creating a page of the type \"Subsites Virtual Page\".</p>\
+<p>Pick the subsite from which you want to pull the content, then select the page. As with regular virtual pages, your Subsites Virtual Page will display the content from the original page, and get updated automatically if the original content changes.</p>\
+<p> </p>\
+<div class=\"note\">\
+<h3>Notes:</h3>\
+<p>To limit access to subsites to specific security roles or groups, please  see the \"<a href=\"[sitetree_link id=41]\">Managing Roles and Permissions</a>\" page of this user help  document.</p>\
+<p>If you are using both the Subsites and the CMS Workflow module, you can set up your roles, permissions and access rights for each individual subsite as well as across all sites. Refer to the CMS workflow documentation for more details. When you run workflow reports, by default you see the results for the current subsite. You also have the option to include \"All subsites\".</p>\
+<p> </p>\
+</div>","Working with multiple sites",\N,\N,\N,"1","1",\N,"1","10",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"5","16","0.9"
+"16","Page","2010-06-01 13:58:35","2010-08-18 08:49:09","for-website-administrators","For website administrators",\N,"<p>In this section, you can learn to:</p>\
+<ul><li><a href=\"[sitetree_link id=45]\" target=\"_blank\">Change and manage user accounts</a></li>\
+<li><a href=\"[sitetree_link id=41]\" target=\"_blank\">Manage roles and permissions</a></li>\
+<li><a href=\"[sitetree_link id=42]\" target=\"_blank\">Use workflow with roles and permissions</a></li>\
+<li><a href=\"[sitetree_link id=43]\" target=\"_blank\">Set up and administer security for multiple subsites</a></li>\
+</ul>","For website administrators",\N,\N,\N,"1","1",\N,"1","5",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"0","7","0.9"
+"18","Page","2010-06-01 14:04:30","2010-08-17 15:32:00","creating-and-editing-content","Creating and editing content",\N,"<h3>In this section</h3>\
+<ul><li>Learn how to create a new page.</li>\
+<li>Learn how to write content for that page.</li>\
+<li>Learn how to describe that content for site navigation and search optimization.</li>\
+<li>Learn how to create hyperlinks.</li>\
+<li>Learn how to save your page as a draft.</li>\
+<li>Learn how to publish your page to the live site. </li>\
+</ul><p>Before we begin</p>\
+<ul><li>Make sure you are in the \"Pages\" section on the Navigation Tabs. </li>\
+</ul><p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600447-Screen shot 2010-06-28 at 2.25.39 PM.png\" width=\"600\" height=\"447\" alt=\"\" title=\"\"/></p>\
+<h3>Creating a new page</h3>\
+<p>To create a new page, first decide where in the site you want your page to be.  If you are creating a new \"subpage,\" click on the parent page in the left-hand Contents Pane you would like to create the subpage in. If you want your site to be in the top level navigation for your site, you should click on the root of the site - the first item listed in the Contents Pane.  </p>\
+<p>On the top of the Contents Pane, you will find a button marked \"Create.\"  Click it, and a drop-down menu will show up. </p>\
+<p><a title=\"Screen shot 2010-06-28 at 2.38.28 PM.png\" href=\"../assets/screenshots/Screen%20shot%202010-06-28%20at%202.38.28%20PM.png?r=95409\"><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-28%20at%202.38.28%20PM.png\" alt=\"Screen shot 2010-06-28 at 2.38.28 PM.png\" width=\"212\" height=\"85\" title=\"\"/><br/></a></p>\
+<p> </p>\
+<p>The default selection should be \"Page,\" but if it's not, go ahead and select \"Page.\"  Then hit the \"Go\" button.</p>\
+<p>You will notice that a new page has been created, with the name of \"New Page.\" (You will also notice it's color, Yellow. Yellow pages are \"new\" and have never been published.)</p>\
+<p>Simply click on the new page in the content page to bring it up in the editing pane. </p>\
+<div class=\"note\">\
+<h3>Notes:</h3>\
+<p>Don't worry if you create your page in the \"wrong\" place.  Pages can be moved and re-ordered easily, and we will cover that under \"<a href=\"[sitetree_link id=9]\">Managing Your Site</a>.\" </p>\
+<p> </p>\
+</div>\
+<h3>Writing content</h3>\
+<p>In the Editing Pane, to edit content, you want to click on the \"Content\" tab if it it not already selected, and then the \"Main\" page. </p>\
+<p>Here you will be presented with three forms.  </p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600427-Screen shot 2010-06-28 at 2.39.16 PM.png\" width=\"600\" height=\"427\" alt=\"\" title=\"\"/></p>\
+<p>The first is for the Page Name - this will define what the page will be known as in the CMS, but it will also be used to form the \"default\" navigation label and URL for the page, though both can be changed manually.  </p>\
+<p>Below it, you will find the Navigation Label.  This will define what the page will show up as when listed in site navigation on the public-facing front page of your site. If you fill in the Page Name first, it will automatically put the page name in the navigation label field. It is usually, but not always, a good idea to leave it the same.  If you wish to change the navigation label but not the page name, you can do so here.  </p>\
+<p>Finally, there is the Content box.  This will contain the bulk of text to appear on your webpage.  Type the text that will appear in the page on the Website.  You may also feel free to use the formatting toolbar at the top of the content screen in order to format your page the way you would prefer.  </p>\
+<h3>Formatting content</h3>\
+<p>This is the formatting toolbar:</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-28%20at%202.39.30%20PM.png\" width=\"591\" height=\"81\" alt=\"\" title=\"\"/></p>\
+<p>Generally, most items in the formatting toolbar will behave much like they would in any word processor.  There are a few exceptions. </p>\
+<p>For example, the Styles drop-down box allows you to add certain styles to a page.  This is primarily used to add image styles to a link of downloadable content, for example, links to PDF or Word documents, Excel spreadsheets, or images. </p>\
+<p>The Paragraph drop-down box allows you to choose a format for that paragraph in HTML code.  Most typed paragraphs will be in the normal \"paragraph\" format, but there are also six levels of \"headings.\"  </p>\
+<p>Headings represent the outline organization of  a document. H1 is generally considered the highest level of the document, while H6 is the lowest level. By using the \"Heading\" paragraph formats, it will automatically make all paragraphs marked with the same heading number the same format.  And, if you want to change the style of your page at a later date, your web designer will only need to change the heading definitions in one place, rather than changing the format of multiple headings in your text individually.  This can be a big timesaver!  </p>\
+<p>The \"Blockquote\" button is used to offset text in what those in the newspaper industry call \"pull-quotes.\" Simply highlight the text you want to offset, and press the blockquote button.  </p>\
+<p>Finally, the \"Insert Horizontal Ruler\" button will insert a horizontal line on the page, and the \"Insert Special Character\" button, marked by the Greek Omega symbol, is used to insert special characters into the text.  This is useful for foreign loanwords with special symbols, such as \"resumé,\" proper names such as \"François Mitterrand,\" and <a href=\"http://en.wikipedia.org/wiki/Metal_umlaut\">metal umlauts</a>, such as \"Mötley Crüe\"</p>\
+<p>There is one other button that needs explanation.  That is the button marked \"HTML.\" If you want to go in and edit the source code of the page directly, pressing the HTML button will bring up the HTML source of the page.  It is recommended that you only do this if you have a good knowledge of HTML formatting. This can be useful when you need to directly add some source code to a page, for example, when embedding YouTube videos. </p>\
+<div class=\"note\">\
+<h3>Notes:</h3>\
+<p><strong>Cutting &amp; pasting from a Word Processor<br/></strong>You may want to bring some text you have already written on a word processor, such as Microsoft Word into your page content.</p>\
+<p>Generally, you can paste any text from a \"plain text editor\" such as Notepad.exe on Windows systems, TextEdit.app on Macintosh systems, and gEdit on Ubuntu Linux, et al.</p>\
+<p>Pasting directly from most word processors or other application often inserts bits of \"rich text\" formatting code that usually doesn't work well with the HTML markup code used on Websites. SilverStripe offers two solutions to this problem.</p>\
+<p>The first is \"Paste as Text.\" [Screenshot].  Paste As Text removes all formatting from copied text before adding it to the website.</p>\
+<p>The second is \"Paste from Word,\" where SilverStripe takes the \"rich text\" formatting code from Microsoft Word, and translates that into HTML markup code. However, this only works with Microsoft Word, and not with other word processors such as OpenOffice.org, Word Perfect, or Apple Pages.  </p>\
+<p> </p>\
+</div>\
+<h3>Describing your content</h3>\
+<p>It's not just enough to create good content that informs your readers. You also need to let your readers find the content they're looking for. You can help your readers find your content by adding metadata. Metadata is page-specific blocks of text, normally hidden from general browsers, which search engines use to classify the page on the internet.  </p>\
+<p>In the Editing Pane for the page you want to describe, under the \"Content\" tab, and next to the \"Main\" tab where you would edit text content for the body of the page is a tab marked \"Metadata.\" In the Metadata tab, you can change the site URL, if you wish, to make it more SEO-friendly.  You can also enter a description and keywords for your site.  If your web manager has asked you to add any additional metadata, you can do so from this page as well. </p>\
+<h3>Creating hyperlinks in webpages</h3>\
+<p>To create a hyperlink in a webpage, highlight the text you wish to make a link in the Editing Pane, and press the \"Insert Link\" button on the toolbar.  This will bring up the Link sidebar on the right side of the screen.</p>\
+<h4>Creating a link to another page on the site</h4>\
+<p>To link to another page on the site, choose \"Page on the Site\" from the list of options on the top of the Link sidebar.  You can then select the page you want to link to from the drop-down box.  Your \"Link Text\" should be automatically filled in with the highlighted text in the Editing Pane.  Check \"Open link in a new window\" if you would like to have the link opened in a new window when the user clicks on it.</p>\
+<p>Finally, to insert the link, click the \"Insert Link\" button on the Link sidebar.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600424-Screen shot 2010-06-28 at 2.53.24 PM.png\" width=\"600\" height=\"424\" alt=\"\" title=\"\"/></p>\
+<h4>Creating a link to an external page</h4>\
+<p>To link to a page on another website, choose \"Another Website\" from  the list of options on the top of the Link sidebar.  You can then paste or type in the URL of the webpage you would like to link to in the \"URL\" field on the sidebar.  Your \"Link Text\"  should be automatically filled in with the highlighted text in the  Editing Pane.  Check \"Open link in a new window\" if you would like to  have the link opened in a new window when the user clicks on it.</p>\
+<p>Finally,  to insert the link, click the \"Insert Link\" button on the Link sidebar.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600426-Screen shot 2010-06-28 at 2.53.50 PM.png\" width=\"600\" height=\"426\" alt=\"\" title=\"\"/></p>\
+<p> </p>\
+<div class=\"note\">\
+<h3>Notes:</h3>\
+<p>There are different processes for \"internal\" and \"external\" links because when pages on a SilverStripe installation are moved or deleted, the links in other pages on the site are automatically changed to the new pages location.  This allows you to quickly move pages around without worry of breaking the site's structure or checking every page in the site for broken links.</p>\
+<p>If you enter in an internal link URL in the external link field, SilverStripe CMS is usually smart enough to change the link to an internal link.</p>\
+<p> </p>\
+</div>\
+<h4>Creating a link to an email address</h4>\
+<p>To link to an e-mail address, choose \"Email Address\" from   the list of options on the top of the Link sidebar.  You can then paste  or type in the e-mail address that you would like to link to.  Your \"Link  Text\"  should be automatically filled in with the highlighted text in  the  Editing Pane. </p>\
+<p>Finally,  to insert the link, click the \"Insert Link\" button on the  Link sidebar.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600309-Screen-shot-2010-07-08-at-1.33.48-PM.png\" width=\"600\" height=\"309\" alt=\"\" title=\"\"/></p>\
+<p> </p>\
+<div class=\"note\">\
+<h3>Notes:</h3>\
+<p>One other option is to hyperlink to a document (a PDF file, DOC file, audio file, video file, or any sort of file that is not a webpage) that you have uploaded to your website. This is a more advanced topic, however, and we will cover it in \"<a href=\"[sitetree_link id=6]\">Working with Images and Documents</a>.\"</p>\
+<p> </p>\
+</div>\
+<h3>Saving your page as a draft</h3>\
+<p>To save your page as a draft, simply hit the \"Save\" button (not \"Save and Publish,\" if it is available) on the bottom right hand corner of the Editing Pane. Saving your page as a draft allows you to preview the page on a \"Draft Site\" available to you and others who have access to the CMS, but does not publish the page to the live website.  </p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-28%20at%202.55.10%20PM.png\" width=\"350\" height=\"32\" alt=\"\" title=\"\"/></p>\
+<p>After you save your page as a draft, you can preview the page by clicking on \"Draft Site\" in the View Bar on the bottom left hand corner of the screen. </p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen-shot-2010-07-08-at-1.31.32-PM.png\" width=\"249\" height=\"22\" alt=\"\" title=\"\"/></p>\
+<p> </p>\
+<p><strong>Remember to save early and often.  </strong></p>\
+<p>Publishing your page, or submitting your page for publication:</p>\
+<p>If your website has a workflow module installed, and you do not have administrative privileges, you can submit your draft changes for publication to your site's administrator by pressing the \"Request Publication\" button.  This will send notification to your site's administrator that the webpage is ready for review.  </p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage60032-Screen-shot-2010-07-08-at-1.30.39-PM.png\" width=\"600\" height=\"32\" alt=\"\" title=\"\"/></p>\
+<p>If you do not have the workflow module installed, or you are the site's administrator, you can publish the page at any time by hitting the \"Save and Publish\" button.  Once the \"Save and Publish\" button is pressed, that information will go out to the live web, so be careful that you are not publishing embarrassing typos, confidential information, or anything you would generally get rebuked by your organization's legal council for publishing. </p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-28%20at%202.55.10%20PM.png\" width=\"350\" height=\"32\" alt=\"\" title=\"\"/></p>\
+<p>You can view the published site directly by clicking on \"Published Site\" in the View Bar on the bottom left hand corner of the screen. </p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen-shot-2010-07-08-at-1.31.32-PM.png\" width=\"249\" height=\"22\" alt=\"\" title=\"\"/></p>\
+<p> </p>","Creating and editing content",\N,\N,\N,"1","1",\N,"1","1",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"5","56","0.8"
+"46","Page","2010-06-01 14:52:47","2010-08-17 15:29:09","introduction-and-logging-in","Introduction and logging in",\N,"<p>Hello, and welcome to the SilverStripe CMS web help. Hopefully, you should be able to find the topic you're looking for in our navigation bar to the left, or, if you prefer, you can use our search function to find what you are looking for. </p>\
+<p>If you have not yet installed SilverStripe, but want to follow along, you can use our interactive demo at <a href=\"http://demo.silverstripe.com/ \">http://demo.silverstripe.com/</a> to give SilverStripe a try. </p>\
+<p>You can access this Help document by clicking on \"Help\" inside your SilverStripe installation at any time. </p>\
+<h3>Logging in</h3>\
+<p>To access the SilverStripe CMS, you need a username and password.  Usernames and passwords can only be given by the site's administrator.  If you don't have a username or password, contact the person or organization that created the website.  </p>\
+<p>Open your web browser. (It is best to use the latest version of your browser for the best experience.)  </p>\
+<p>To get to the login page for the site administration, type in your website address, and add \"/admin\" to the end.  For example, if your website was http://www.yoursite.com/, your login page would be found at http://www.yoursite.com/admin.  </p>\
+<p>On the login page, enter your login (usually your e-mail address) and password.  This will take you to the CMS main screen. <img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600348-Screen-shot-2010-07-08-at-12.42.01-PM.png\" width=\"600\" height=\"348\" alt=\"\" title=\"\"/></p>\
+<p> </p>\
+<div class=\"note\">\
+<h3>Notes:</h3>\
+<p>If you select \"Remember me next time?,\" the login fields will prepopulate the next time you log into the CMS. Only use this option on a computer where you alone have access.</p>\
+<p>If you can't remember your password, click on \"I've lost my password.\" You'll be asked to enter your email address and will receive an email with a link that allows you to reset your password.</p>\
+<p>If you are managing other CMS users and want to reset a password for somebody else, refer to <a href=\"[sitetree_link id=45]\">Changing and Managing Users</a>.</p>\
+<p> </p>\
+</div>","Introduction and logging in",\N,\N,\N,"1","1",\N,"1","2",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"0","21","0.9"
+"41","Page","2010-06-01 14:44:51","2010-08-18 12:31:31","managing-roles-and-permissions","Managing roles and permissions",\N,"<h3>In this section:</h3>\
+<ul><li>Understand roles and security groups</li>\
+<li>Learn how to set up a role</li>\
+<li>Learn how to edit a role</li>\
+<li>Learn how to create a security group</li>\
+<li>Learn how to assign a role to a security group or members</li>\
+<li>Learn how to restrict access by IP address</li>\
+</ul><h3>Before we begin:</h3>\
+<ul><li>Make sure you are in  the \"Security\" section on the navigation tabs. </li>\
+</ul><h3>Explaining security groups and roles</h3>\
+<p>Instead of assigning individual permissions to access, create, edit, or  delete content per user, you can use Security Groups and Roles to  organise what accounts have which permissions.  <br/><br/> Roles are collections of permissions.  For example, you might create an  editor role to give a group read/write access to all content, or a  \"contributor\" role who has the right to add content to the CMS but not  to publish it, or a \"spectator\" role which gives a person a right to  view the backend of the CMS, but not any ability to edit it.<br/><br/> Security groups are collections of users, and whatever permissions they  have apply to a subset of pages. So, for example, the marketing team  could have access to the parts of the website dealing with marketing,  and the development team could have access to the parts of the website  dealing with development. <br/><br/> One of the ways that the two can be used together is to assign similar  roles to different groups.  You only need to define an \"editor\" role  once, but by applying the \"editor\" role to different groups with  different access to different pages, so if you assigned the \"editor\"  role to both the marketing team and development team security groups,  the marketing team would be able to edit the marketing pages, and the  development team would be able to edit the development pages, but they  would not be able to edit each other's pages. <br/><br/> As a general rule of thumb, Roles define <strong>what</strong> can be done, and Security  Groups define <strong>who</strong> can do it, and <strong>where</strong>.</p>\
+<h3>Using roles</h3>\
+<p>The most typical user roles are:</p>\
+<ul><li><strong>Author</strong> (someone who can create and edit content, but not publish)</li>\
+<li><strong>Publisher</strong> (someone who can also publish)</li>\
+<li><strong>Administrator</strong> (someone who has full rights for the management of the  site, including the ability to create users and roles)</li>\
+</ul><p>These roles may be all you ever need, however, the CMS allows you to  create as many different roles as are appropriate for your organisation.</p>\
+<h4>Setting up roles</h4>\
+<p>To set up roles, click on the \"Roles\" tab in the Editing Pane. <img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600225-Screen shot 2010-06-29 at 11.33.39 AM.png\" width=\"600\" height=\"225\" alt=\"\" title=\"\"/></p>\
+<p>Click on \"Add Role.\" A pop-up dialog should prompt you for information  ont the role, including the title of the role.  Select the appropriate  permissions from the Permissions checklist. Hover over a permission to  see more information about it as a tooltip.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-29%20at%2011.33.47%20AM.png\" width=\"562\" height=\"421\" alt=\"\" title=\"\"/></p>\
+<p>Click on the save button to save the changes, and finally, close the  window by clicking on the close box in the top right-hand corner of the  popup. </p>\
+<div class=\"note\">\
+<h3>Notes:</h3>\
+<p>A role can have any number of permissions. <br/><br/> For example, an author typically has \"Access to Site Content,\" (they can  access the \"Site Content\" section in the CMS; the part where all  content is managed), \"Access to Files &amp; Images,\" (they can browse  the \"Files and Images section in the CMS, organise assets in folders,  upload new assets, etc.), and \"Change site structure,\" (They can change  the location for a page in the site tree and so manage the site  structure and navigation.)</p>\
+<p> </p>\
+</div>\
+<h4>Editing roles</h4>\
+<p>To see details about or edit an existing role, click on the \"Edit\" icon  to the right of the role's name.  </p>\
+<h3>Using groups</h3>\
+<p>Each CMS user for your website belongs to one or more groups. For  example, you may have a group who can only access the News section of  your website, and another group who can only access the Events section  of your website. The users in each group would be the people who manage  the content for the respective section.<br/><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-29%20at%2011.34.47%20AM.png\" width=\"564\" height=\"423\" alt=\"\" title=\"\"/><br/> Unlike roles, there are no basic groups that typically apply to all  sites. Instead, the groups you set up depend on your organisation, and  who is involved in updating your website.We recommend you think about  who manages which areas or sections of your website, and then create  groups based on those areas of responsibility.</p>\
+<h4>Creating a new security group</h4>\
+<p>To create a new Security Group, click the Create button in the top of  the Contents pane. Put the name of the group in the \"Group Name\" field in the \"Members\" tab  in the Editing Pane.  Save the group by pressing the Save button in the  bottom right hand corner of the editing pane.</p>\
+<div class=\"note\">\
+<h3>Notes:</h3>\
+<p>We recommend you set up a top-level group for your entire site,  as well as for each section that is managed by specific people.</p>\
+<p> </p>\
+</div>\
+<p>You can nest groups, and create sub-groups which may represent different  roles The parent group acts as a place to organise different  subgroups.  In this case, it's probably best not to add members directly  to the parent group. </p>\
+<h4>Adding members to groups</h4>\
+<p>Once you have created a group, you can then add members to the group.  First, find the security group you want to add members to in the Content  Pane.  Click on it, and then click on the \"Members\" tab in the Editing  Pane. <br/><br/> Starting to type in the first name, last name, or e-mail address in the  appropriate fields will give you a drop-down choice of autocomplete  names. If you see the name you are looking for, click on it, and click  \"Add\" to the right of the fields. <br/><br/> If you wish to add a new member instead of choosing from an already  established member, you can click the \"Add Member\" button in the bottom  right hand corner of the editing pane.</p>\
+<div class=\"note\">\
+<h3>Notes:</h3>\
+<p>Users can be in multiple groups.  If you delete a user  from a group, they are only removed from that group, not from the  system.  To fully delete a user, you need to be in the root of  Security.  You can reach the security group root by clicking on  \"Security Groups\" at the top of the Contents Pane.  It will have an icon  of a globe next to it.</p>\
+<p> </p>\
+</div>\
+<h3>Editing and deleting groups</h3>\
+<p>To edit a group, click the group name in the site tree. This opens the  group details. You can change the group name, and add, edit or delete members.  Note that a single user can belong to more than one group.<br/><br/> To delete a group, click Delete. This gives you checkboxes next to each  group. Select the group(s) you want to delete, then click Delete the  selected groups (you will be asked for confirmation). Note that deleting  a group does not delete its members.</p>\
+<h3>Assigning roles to security group members</h3>\
+<p>You can assign roles to security group members by clicking on the  \"Roles\" tab in the editing pane, and selecting the appropriate roles for  your group. <br/><br/> Save the changes by pressing \"Save\" in the bottom right hand corner of  the editing pane. </p>\
+<h4>Assigning permissions to security group members</h4>\
+<p>It is suggested that, where possible, permissions are assigned to roles,  and roles are assigned to security group members.  However, it is  possible to assign permissions to security group members, by clicking on  the Permissions tab in the editing pane.  The Permissions tab allows  you to apply additional permissions to a group.</p>\
+<h3>Restricting access by IP address</h3>\
+<p>To restrict access by IP address, click on the IP address tab in the  Editing Pane, and add your IP address ranges to the box.  Only those  users signing in from a computer in a valid IP address range will be  able to access the site.</p>","Managing roles and permissions",\N,\N,\N,"1","1",\N,"1","2",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"16","19","0.8"
+"42","Page","2010-06-01 14:44:51","2010-08-18 14:32:18","workflow-roles-and-permissions","Workflow roles and permissions",\N,"<h3>In this section:</h3>\
+<ul><li>Learn how to set up roles and groups for workflow</li>\
+<li>Set up \"Author,\" \"Publisher,\" and \"Administrator\" roles for workflow</li>\
+<li>Set up access rights for pages using security groups for workflow</li>\
+</ul><h3>Before we begin:</h3>\
+<ul><li>Make sure you are in  the \"Security\" section on the navigation tabs. </li>\
+</ul><h3>Roles, security groups, and workflow</h3>\
+<p>Instead of assigning individual permissions to access, create, edit, or  delete content per user or per page, you can use Security Groups and Roles to  organise what accounts have which permissions.  </p>\
+<p>As mentioned in the \"<a href=\"[sitetree_link id=41]\" target=\"_blank\">Managing Roles and Permissions</a>\" page, Roles are collections of permissions, and Security Groups are collections of users and pages. Roles typically define what can be done, and Groups determine who can do things, and where. </p>\
+<p>The most typical user roles are:</p>\
+<ul><li><strong>Author</strong> (someone who can create and edit content, but not publish)</li>\
+<li><strong>Publisher</strong> (someone who can also publish)</li>\
+<li><strong>Administrator</strong> (someone who has full rights for the management of the  site, including the ability to create users and roles)</li>\
+</ul><p>In this section, we will set up these three specific roles, assign them to groups, and explain how these relate to workflow.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600225-Screen shot 2010-06-29 at 11.33.39 AM.png\" width=\"600\" height=\"225\" alt=\"\" title=\"\"/></p>\
+<h3>Setting up authors and publishers</h3>\
+<h4>Setting up the \"Author\" role</h4>\
+<p>To set up the Author role, click on the \"Roles\" tab in the Editing Pane. <br/><br/> Click on \"Add Role.\" A pop-up dialog should prompt you for information  on the role, including the title of the role. In this case, you want to name the role \"Author.\"</p>\
+<p>Select the appropriate  permissions from the Permissions checklist - in this case, you want to check \"Access to 'Files &amp; Images' section,\" \"Access to 'Pages' section,\" and \"Change Site Structure.\"</p>\
+<p>Click on the save button to save the changes, and finally, close the  window by clicking on the close box in the top right-hand corner of the  popup. </p>\
+<h4>Setting up the \"Publisher\" role</h4>\
+<p>Setting up the Publisher role takes exactly the same as setting up the Author role, with the obvious exception that this role will be named \"Publisher.\" The difference between the two will be apparent when we set up the security groups. </p>\
+<h3>Using groups with workflow</h3>\
+<p>You may have a specific group of people in your organisation who manage specific sections of your site.  So, you may want to set up a group for that section. </p>\
+<p>Because groups can be nested, you can create subgroups.  For example, if you had a section of the site called \"News,\" you may wish to create a security group called \"News Section\" with the subgroups \"News Authors,\" and \"News Publishers.\"  The parent group acts as a place to organise your different sub-groups, so you probably don't want to add any members directly to the parent group, only to its children.</p>\
+<p>At this time, you will want to add users to groups.  (See Managing Roles and Permissons for details.)</p>\
+<h4>Assigning access rights across the entire site</h4>\
+<p>You will want to head to the \"Pages\" section on the navigation toolbar  at the top of the screen.</p>\
+<p>You can assign access rights across your entire site by clicking on the root of the site.  The root will be at the very top of the page tree in the Contents Pane, and have a picture of a globe next to it. </p>\
+<p>Click on the \"Access\" tab in the editing pane to bring up the access options.They are:</p>\
+<ul><li>Who can view pages on this site?</li>\
+<li>Who can edit pages on this site?</li>\
+<li>Who can create pages in the root of this site?</li>\
+<li>Who can approve requests inside the CMS?</li>\
+<li>Who can publish approved requests inside the CMS?</li>\
+</ul><p>On each, you can limit access to specific security groups by choosing the radio button \"Only these people (choose from list),\" and choosing which security groups have access from the \"drop-down checklist.\"</p>\
+<p>Hit \"Save\" in the bottom right hand corner of the editing pane to save the changes.</p>\
+<h4>Assigning access rights for specific sections or pages</h4>\
+<p>You can also assign accress rights for specific sections of your website.  By default, all pages get access rights from their parent. So, for example, a subpage will inherit rights from it's parent page.  For top-level pages, access rights are inherited from the root of the site. </p>\
+<p>If you wish to assign access rights for specific sections or pages, you can do so by going the page that heads the section, and choosing the \"Access\" tab in the Editing Pane. </p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600578-Screen shot 2010-06-29 at 11.36.05 AM.png\" width=\"600\" height=\"578\" alt=\"\" title=\"\"/></p>\
+<p>Here, you will be asked:</p>\
+<ul><li>Who can view this page?</li>\
+<li>Who can edit this page?</li>\
+<li>Who can approve requests inside the CMS?</li>\
+<li>Who can publish approved request inside the CMS?</li>\
+</ul><p>By default, all will have \"Inherit from parent page\" selected. You can limit access to specific security groups by choosing the radio  button \"Only these people (choose from list),\" and choosing which  security groups have access from the \"drop-down checklist.\"</p>","Workflow roles and permissions",\N,\N,\N,"1","1",\N,"1","3",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"16","16","0.8"
+"43","Page","2010-06-01 14:44:51","2010-08-18 14:33:13","security-for-multiple-subsites","Security for multiple subsites",\N,"<h3>In this section:</h3>\
+<ul><li>Learn how to manage security for multiple related subsites </li>\
+</ul><h3>Before we begin:</h3>\
+<ul><li>Make sure you are in  the \"Security\" section on the navigation tabs. </li>\
+<li>Maker sure you have full administration rights for your site.</li>\
+</ul><p>The SilverStripe Subsites module allows you to manage multiple related sites through a single CMS interface. Because all sites run on a single installation of SilverStripe, they can share users, content and assets.</p>\
+<h3>Roles</h3>\
+<p>When creating <a href=\"[sitetree_link id=41]\">roles</a>, you can assign the following subsite-specific permissions:</p>\
+<ul><li><strong>Access to Subsite</strong>: Shows the Subsite section in the CMS, allowing you to manage subsites for your site (i.e., create, edit, view.)</li>\
+<li><strong>Manage subsites for groups</strong>: Ability to limit the permissions for a group to one or more subsites.</li>\
+<li><strong>Manage assets for subsites</strong>: Ability to select the subsite to which an asset folder belongs (also requires access to Files &amp; Images.)</li>\
+</ul><h3>Groups</h3>\
+<p>Groups can have access to all sites, or to one or more specific subsites.</p>\
+<p>If you are using subsites and have different staff in charge of each subsite, you probably want to create a separate group for each subsite.</p>\
+<p>The dropdown in the upper right corner of the CMS indicates which subsite you are currently on.</p>\
+<p>While you are in the Security section of the CMS, the selection in the subsites dropdown defines what groups you see in the left-hand pane.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/subsite-4.png\" width=\"227\" height=\"63\" alt=\"\" title=\"\"/></p>\
+<p>The choices are:</p>\
+<ul><li>Groups accessing all sites</li>\
+<li>[your main site]</li>\
+<li>[a subsite]</li>\
+<li>[another subsite]</li>\
+<li>All groups - i.e., all above combined</li>\
+</ul><p>Once you make a selection from the dropdown, you see the appropriate groups in the Security section. In the Security section, click a group and go to its Subsites tab to assign the subsites to which the group has access. Click Only these subsites to reveal a checklist of all available sites.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/subsite-6.png\" width=\"354\" height=\"158\" alt=\"\" title=\"\"/></p>\
+<p> </p>","Security for multiple subsites",\N,\N,\N,"1","1",\N,"1","4",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"16","10","0.8"
+"45","Page","2010-06-01 14:44:52","2010-08-18 12:06:56","changing-and-managing-users","Changing and managing users",\N,"<h3>In this section:</h3>\
+<ul><li>Learn how to create users</li>\
+<li>Learn how to delete users</li>\
+<li>Learn how to manage users</li>\
+<li>Learn how to change a user's password    </li>\
+</ul><h3>Before we begin:</h3>\
+<ul><li>Make sure you are in the \"Security\" section on the navigation tabs. </li>\
+</ul><h3>Creating users</h3>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600411-Screen shot 2010-06-29 at 11.05.37 AM.png\" width=\"600\" height=\"411\" alt=\"\" title=\"\"/>You can create a user by clicking on the \"Members\" tab in the Editing Pane, there is a button on the bottom right hand corner, labeled \"Add Member.\" Press it, and a form will pop-up.  <br/><br/>Here, in the Main tab in the popup, you can edit the user's details. The two most important parts of the user details are the user's email (which is also used as a login) and password. <img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-29%20at%2011.05.47%20AM.png\" width=\"569\" height=\"432\" alt=\"\" title=\"\"/><br/><br/>If you have a forum, you can also alter administrative settings for forums as well, granting administrative access for the forum as a whole from the \"Forum\" tab, and assign the user moderation powers over specific forums from the \"Moderated Forums\" tab. You can also assign the user to one or more security groups from the Groups tab.  (Security groups are covered below.)</p>\
+<h3>Managing and deleting users</h3>\
+<p>You can edit or delete a user by clicking on the \"Edit\" or \"Delete\" icons to the right of the user's entry. </p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600474-Screen shot 2010-06-29 at 11.06.15 AM.png\" width=\"600\" height=\"474\" alt=\"\" title=\"\"/></p>\
+<p> </p>\
+<div class=\"note\">\
+<h3>Notes:</h3>\
+<p>Users can be in multiple groups.  If you delete a user  from a group,  they are only removed from that group, not from the  system.  To fully  delete a user, you need to be in the root of  Security.  You can reach  the security group root by clicking on  \"Security Groups\" at the top of  the Contents Pane.  It will have an icon  of a globe next to it.</p>\
+<p> </p>\
+</div>\
+<h4>Changing a user's password</h4>\
+<p>To change a user's password, find a user under the \"Members\" tab in the Editing Pane, and click on the \"Edit\" button. This should produce a pop-up window.  <br/><br/>Underneath the Email field in the User Details, there is a Change Password link. This will open up a password field and a confirm password field.  Change the password and confirm it (both must match) and hit \"Save\" on the bottom of the popup window.</p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/Screen%20shot%202010-06-29%20at%2011.06.55%20AM.png\" width=\"530\" height=\"217\" alt=\"\" title=\"\"/></p>\
+<p> </p>","Changing and managing users",\N,\N,\N,"1","1",\N,"1","1",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"16","21","0.8"
+"47","Page","2010-06-01 15:27:54","2010-08-17 15:30:03","basic-overview","Basic overview",\N,"<p>The SilverStripe CMS is arranged in five sections.  </p>\
+<p><img class=\"leftAlone\" src=\"assets/screenshots/_resampled/resizedimage600371-Pane-View.png\" width=\"600\" height=\"371\" alt=\"\" title=\"\"/></p>\
+<h4>Navigation tabs</h4>\
+<p><strong>Location: upper bar</strong></p>\
+<p>The Navigation Tabs allow you to navigate to the main groups in SilverStripe CMS. Here, you can choose to manage pages, your stock of files and images, or your website's comments. You can also get reports on pages, and get help.  Some modules and options will add additional tabs here. Click on the relevant tab to display the associated information in the current window.</p>\
+<p>Specific tabs may change depending on what modules are installed. However, the following tabs are part of a typical SilverStripe installation:</p>\
+<h5 style=\"padding-left: 30px;\">Pages</h5>\
+<p style=\"padding-left: 30px;\">This section enables you to access and edit the content of the pages on your website. On this tab, two extra \"sub-tabs\" are displayed in the left pane that enable you to display a History of editing events and a list of Reports incorporated within the system. </p>\
+<h5 style=\"padding-left: 30px; \">Files &amp; Images</h5>\
+<p style=\"padding-left: 30px;\">By clicking on \"Files &amp; Images\" icon, the screen will display a list of all folders containing uploaded files and images. This hierarchical view enables you to locate and select the file you wish to edit, delete or move.</p>\
+<h5 style=\"padding-left: 30px;\">Comments</h5>\
+<p style=\"padding-left: 30px;\">If you have page comments enabled anywhere on the site, you can use this section to view and moderate them.</p>\
+<h5 style=\"padding-left: 30px;\">Reports</h5>\
+<p style=\"padding-left: 30px;\">This section shows reports for your site, for example, pages with broken links. What you see in this section will depend on which version of SilverStripe you are running, and what modules you have installed.</p>\
+<h5 style=\"padding-left: 30px;\">Security</h5>\
+<p style=\"padding-left: 30px;\">The Security section enables you to set up and administrate users and user groups. The various security groups are displayed in the left pane and the details of the selected group are displayed in the right pane. Amongst other things, this enables you to add and remove members from selected groups and control the access these users have to pages.</p>\
+<h5 style=\"padding-left: 30px;\">Help</h5>\
+<p style=\"padding-left: 30px;\">Help provides direct access to SilverStripe user help. This is the site you are looking at right now!</p>\
+<h4>Contents pane</h4>\
+<p><strong>Location: left side</strong></p>\
+<p>The Contents Pane displays the contents of the currently selected navigation tab in a hierarchical format.  For example, when looking at the \"Pages\" navigation tab, the Contents pane will show you a sitemap, listing all of the pages on the site. Pages can be nested, so to expand the view to include subpages, click on the \"+\" icon.  If you wish to collapse the views, you can click on the \"-\" icon.  </p>\
+<h4>Editing pane</h4>\
+<p><strong>Location: largest section, on the right side.</strong></p>\
+<p>Once you have selected an item in the contents pane, the contents and properties of that item will be displayed in the right pane on a number of tabbed pages. (These tabbed pages may also contain a subset of tabbed pages). This pane enables you to edit the content and properties of selected items.  For example, if you were to click on a webpage in the Contents pane, the Editing Pane would show you the content on that page, and let you edit it.  When editing content, the Editing Pane is \"WYSIWYG\" - or \"What You See Is What You Get.\" You can use the toolbar in the editing pane to edit the webpage's content, much like you would in a word processor.  </p>\
+<h4>Sub-tabs</h4>\
+<p><strong>Location: On the bottom of the contents pane</strong></p>\
+<p>These normally hidden, but expandable subtabs are typically only available in Pages view. They provide quick information about page version history, so you can easily roll back to an earlier version of a page, if need be, and site reports which detail pages that need urgent work or have not changed in a while.  </p>\
+<h4>View bar</h4>\
+<p><strong>Location: on the very bottom of the screen</strong></p>\
+<p>The View Bar allows you to switch between the three views available within SilverStripe CMS: the editing view of the CMS, how your proposed website will look when and if it is published, and what the current, live, published page looks like.  Additionally, you can find on the right side of the View Bar a place to logout or alter your user profile. </p>","Basic overview",\N,\N,\N,"1","1",\N,"1","3",\N,"0","0","Published",\N,"Anyone","LoggedInUsers",\N,"0","35","0.9"
+"52","Page","2010-06-11 10:27:19","2010-08-18 08:59:22","content-review","Content review",\N,"<h3>Setting content owners and review dates</h3>\
+<p> </p>\
+<div class=\"note\">\
+<h3>Notes:</h3>\
+<p>Setting Content Owners is only possible if you have the \"Content Review\" module installed.  Content Review is a module that is not part of the default  SilverStripe 2.4 installation, but it is supported.</p>\
+<p> </p>\
+</div>\
+<p>To set a content owner for a page, and give a review date for that  page which will generate an alert in the report section of the CMS when  that report is due, click on the page you wish to set a report for in  the Page Tree of the Contents pane. <br/><br/>Click on the \"Review\" tab in  the editing pane. Choose the page owner from the drop-down \"Page owner\"  menu. You can then set the review date using the built in calendar, and  if you want to have repeated reviews, you can change the frequency of  reviews by the drop-down box. This will alert the content owner via a  report in the CMS (viewable in the \"Reports\" section on the navigation bar) and via e-mail.</p>","Content review",\N,\N,\N,"1","1",\N,"1","6",\N,"0","0","Published",\N,"Inherit","Inherit",\N,"5","9","0.8"
+"56","Page","2011-11-23 11:46:49","2011-11-23 11:47:12","search-results","Search Results",\N,\N,"Search Results",\N,\N,\N,"1","1",\N,"0","10",\N,"0","0","Saved (new)",\N,"Inherit","Inherit",\N,"0","2","1.0"
