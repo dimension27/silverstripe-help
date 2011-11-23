@@ -3,7 +3,7 @@ class SSHelpController extends Controller {
 
 	public function index( SS_HTTPRequest $request ) {
 		$args = $request->getVars();
-		$type = $args['type'];
+		if( !$type = @$args['type'] ) $type = 'subsite';
 		if( !$assetsFolder = @$args['assets-folder'] ) $assetsFolder = 'help';
 		
 		if( $type == 'subsite' ) {
@@ -81,9 +81,11 @@ class SSHelpController extends Controller {
 			$siteTree->write();
 			$idMapping[$siteTreeRow['ID']] = $siteTree->ID;
 		}
-		foreach( DataObject::get('SiteTree', "SiteTree.ID IN (".implode(', ', $idMapping).")") as $siteTree ) {
+		foreach( DataObject::get('SiteTree', "SiteTree.ID IN (".implode(', ', $idMapping).")") as $siteTree ) { /* @var $siteTree SiteTree */
 			$siteTree->Content = $this->replaceSiteTreeIDs($siteTree->Content, $idMapping);
+			$siteTree->Status = 'Published';
 			$siteTree->write();
+			$siteTree->publish('Stage', 'Live');
 		}
 		echo "You will now need to ensure that the $moduleDir/theme folder is symlinked (or copied) into themes/ss-help".NL;
 	}
@@ -106,7 +108,7 @@ class SSHelpController extends Controller {
 		return preg_replace('/\\\\([\r\n"\'])/', '$1', $value); 
 	}
 
-	function showUsage( $message ) {
+	function showUsage( $message = null ) {
 		if( $message ) {
 			echo "Invalid usage: $message\n";
 		}
