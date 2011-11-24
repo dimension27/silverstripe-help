@@ -21,7 +21,7 @@
 		<div id="header">
 
 			<h1>
-				<a href="$Top.Link" title="$SiteConfig.Title"><span>$SiteConfig.Title</span></a>
+				<a href="" title="$SiteConfig.Title"><span>$SiteConfig.Title</span></a>
 			</h1>
 		
 			<div id="breadcrumbs">
