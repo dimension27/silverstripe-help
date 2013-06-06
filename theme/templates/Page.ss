@@ -7,8 +7,8 @@
 		
 		<link rel="shortcut icon" href="/favicon.ico" />
 		
-		<% require css(http://userhelp.silverstripe.org/themes/ssorgsites/css/ss.screen.min.css, screen) %>
-		<% require css(http://userhelp.silverstripe.org/themes/ssorgsites/css/ss.print.min.css, print) %>
+		<% require css(themes/ss-help/css/ss.screen.min.css, screen) %>
+		<% require css(themes/ss-help/css/ss.print.min.css, print) %>
 		
 		<% require css(themes/ss-help/css/userhelp.css) %>
 		
